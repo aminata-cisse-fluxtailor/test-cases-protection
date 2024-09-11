@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seasons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:../../rate-plan-schema/seasons.xsd">
+
+    <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
+        <name>Winter</name>
+        <month>1</month>
+    </season>
+    <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
+        <name>Winter</name>
+        <month>2</month>
+    </season>
+    <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
+        <name>Winter</name>
+        <month>3</month>
+    </season>
+    <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
+        <name>Winter</name>
+        <month>4</month>
+    </season>
+    <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
+        <name>Winter</name>
+        <month>5</month>
+    </season>
+    <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
+        <name>Winter</name>
+        <month>10</month>
+    </season>
+    <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
+        <name>Winter</name>
+        <month>11</month>
+    </season>
+    <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
+        <name>Winter</name>
+        <month>12</month>
+    </season>
+    <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
+        <name>Summer</name>
+        <month>6</month>
+    </season>
+    <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
+        <name>Summer</name>
+        <month>7</month>
+    </season>
+    <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
+        <name>Summer</name>
+        <month>8</month>
+    </season>
+    <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
+        <name>Summer</name>
+        <month>9</month>
+    </season>
+</seasons>
