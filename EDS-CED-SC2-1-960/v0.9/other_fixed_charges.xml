@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <otherFixedCharges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="file:../../rate-plan-schema/other_fixed_charges.xsd">
+    xsi:noNamespaceSchemaLocation="file:../../../rate-plan-schema/other_fixed_charges.xsd">
     
     <!-- These values are all empty in this sheet https://docs.google.com/spreadsheets/d/1J9U2chojom5VshKt-tcVRYNLccO95WMy/edit?gid=1728850274#gid=1728850274 -->
     

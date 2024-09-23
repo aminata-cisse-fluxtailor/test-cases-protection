@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <charges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="file:../../rate-plan-schema/charges.xsd">
+    xsi:noNamespaceSchemaLocation="file:../../../rate-plan-schema/charges.xsd">
 
     <validPeriod>
         <startTime></startTime>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <seasons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="file:../../rate-plan-schema/seasons.xsd">
+    xsi:noNamespaceSchemaLocation="file:../../../rate-plan-schema/seasons.xsd">
 
     <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
         <name>Winter</name>
