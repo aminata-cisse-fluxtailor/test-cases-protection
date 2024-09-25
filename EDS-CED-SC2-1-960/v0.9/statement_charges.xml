@@ -1,0 +1,13 @@
+<statementCharges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:../../../rate-plan-schema/statement_charges.xsd">
+    
+    <scopeOfApplicability>
+        <include>
+            <serviceClasses></serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses></serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
+    
+</statementCharges>
