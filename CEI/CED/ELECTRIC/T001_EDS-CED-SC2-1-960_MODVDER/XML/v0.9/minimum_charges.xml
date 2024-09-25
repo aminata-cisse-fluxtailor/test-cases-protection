@@ -2,11 +2,17 @@
 <minimumCharges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="file:../../../rate-plan-schema/minimum_charges.xsd">
     
-    <minimumCharge ratePlanCodeUnique="EDS-CED-SC2-1-960">
-        <name>Customer Charge</name>
-        <chargeAmount>29.39</chargeAmount>
-        <chargeTier></chargeTier>
-        <unitOfMeasure>Monthly</unitOfMeasure>
+    <minimumCharge>
+        <servicePeriod>
+            <startDate>2006-05-04</startDate>
+        </servicePeriod>
+        <chargeName>Minimum Charge</chargeName>
+        <description>Minimum Charge</description>
+        <calculationMethod>fixed</calculationMethod>
+        <value>29.39</value>
+        <uom>Monthly</uom>
+        <unitMultiplier>1</unitMultiplier>
+        <chargesComponent>delivery</chargesComponent>
     </minimumCharge>
 
 </minimumCharges>
