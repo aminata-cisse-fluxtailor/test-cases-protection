@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ratePlans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="file:../../../rate-plan-schema/rate_plans.xsd">
+    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Flux-Tailor/rate-plan-schema/refs/tags/v0.9/rate_plans.xsd">
 
     <ratePlan ratePlanCodeUnique="EDS-CED-SC2-1-960">
         <ratePlanName>Rate I - General - Small</ratePlanName>
