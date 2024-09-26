@@ -6,9 +6,9 @@
         <ratePlanName>Rate I - General - Small</ratePlanName>
         <dateDraftUpdate>2024-01-08</dateDraftUpdate>
         <dateEffective>2024-01-01</dateEffective>
-        <dateCancellation></dateCancellation>
+        <dateCancellation>2025-01-01</dateCancellation>
         <ratePlanIedrOrgAbbreviation>CED</ratePlanIedrOrgAbbreviation>
-        <serviceType>Electric</serviceType>
+        <service>Electric</service>
         <customerClass>Commercial</customerClass>
         <serviceClassNumber>2</serviceClassNumber>
         <serviceClassName>Service Classification No. 2</serviceClassName>

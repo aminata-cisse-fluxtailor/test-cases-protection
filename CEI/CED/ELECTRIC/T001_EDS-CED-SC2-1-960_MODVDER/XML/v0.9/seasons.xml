@@ -3,51 +3,51 @@
     xsi:noNamespaceSchemaLocation="file:../../../rate-plan-schema/seasons.xsd">
 
     <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
-        <name>Winter</name>
+        <seasonName>Winter</seasonName>
         <month>1</month>
     </season>
     <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
-        <name>Winter</name>
+        <seasonName>Winter</seasonName>
         <month>2</month>
     </season>
     <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
-        <name>Winter</name>
+        <seasonName>Winter</seasonName>
         <month>3</month>
     </season>
     <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
-        <name>Winter</name>
+        <seasonName>Winter</seasonName>
         <month>4</month>
     </season>
     <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
-        <name>Winter</name>
+        <seasonName>Winter</seasonName>
         <month>5</month>
     </season>
     <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
-        <name>Winter</name>
+        <seasonName>Winter</seasonName>
         <month>10</month>
     </season>
     <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
-        <name>Winter</name>
+        <seasonName>Winter</seasonName>
         <month>11</month>
     </season>
     <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
-        <name>Winter</name>
+        <seasonName>Winter</seasonName>
         <month>12</month>
     </season>
     <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
-        <name>Summer</name>
+        <seasonName>Summer</seasonName>
         <month>6</month>
     </season>
     <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
-        <name>Summer</name>
+        <seasonName>Summer</seasonName>
         <month>7</month>
     </season>
     <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
-        <name>Summer</name>
+        <seasonName>Summer</seasonName>
         <month>8</month>
     </season>
     <season ratePlanCodeUnique="EDS-CED-SC2-1-960">
-        <name>Summer</name>
+        <seasonName>Summer</seasonName>
         <month>9</month>
     </season>
 </seasons>
