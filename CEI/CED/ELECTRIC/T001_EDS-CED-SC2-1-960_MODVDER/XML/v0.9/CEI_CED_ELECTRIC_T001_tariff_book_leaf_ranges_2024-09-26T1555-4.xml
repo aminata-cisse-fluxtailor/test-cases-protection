@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tariffBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Flux-Tailor/rate-plan-schema/refs/tags/v0.9/rate-plan-schema/tariff_book_leaf_ranges.xsd">
+    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Flux-Tailor/rate-plan-schema/refs/tags/v0.9/tariff_book_leaf_ranges.xsd">
     
     <sourceDocKind>TariffBookLeafRange</sourceDocKind>
         <sourceURL>https://iedr-public-static-files.s3.amazonaws.com/rate-tariffs/coned/electric/10/coned_electric_10_effective.pdf</sourceURL>

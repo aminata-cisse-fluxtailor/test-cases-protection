@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <nonmeteredServiceCharges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Flux-Tailor/rate-plan-schema/refs/tags/v0.9/rate-plan-schema/nonmetered_service_charges.xsd">
+    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Flux-Tailor/rate-plan-schema/refs/tags/v0.9/nonmetered_service_charges.xsd">
     
-    <!-- These values are all empty in this sheet https://docs.google.com/spreadsheets/d/1J9U2chojom5VshKt-tcVRYNLccO95WMy/edit?gid=1728850274#gid=1728850274 -->
-    <nonmeteredServiceCharge ratePlanCodeUnique="">
-        <name></name>
-        <chargeAmount></chargeAmount>
-        <unitOfMeasure/>
+    <nonmeteredServiceCharge ratePlanCodeUnique="EDS-CED-SC2-1-960">
+        <servicePeriod>
+            <startDate>2006-05-04</startDate>
+        </servicePeriod>
+        <chargeName></chargeName>
+        <description></description>
+        <calculationMethod>fixed</calculationMethod>
+        <value>0</value>
+        <uom></uom>
+        <unitMultiplier>1</unitMultiplier>
+        <chargesComponent>delivery</chargesComponent>
     </nonmeteredServiceCharge>
     
 </nonmeteredServiceCharges>
