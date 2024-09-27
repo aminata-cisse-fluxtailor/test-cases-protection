@@ -15,13 +15,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825433</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-06-01</startDate>
@@ -51,13 +55,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825933</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-06-01</startDate>
@@ -87,13 +95,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2823955</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-01-01</startDate>
@@ -123,13 +135,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2814995</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2022-01-17</startDate>
@@ -159,13 +175,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2822655</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2023-10-01</startDate>
@@ -195,13 +215,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825369</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-04-01</startDate>
@@ -231,13 +255,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825845</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-06-01</startDate>
@@ -267,13 +295,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2809323</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2020-10-15</startDate>
@@ -303,13 +335,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825845</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-06-01</startDate>
@@ -339,13 +375,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825805</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-05-31</startDate>
@@ -375,13 +415,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825805</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-05-31</startDate>
@@ -411,13 +455,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2774085</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2013-11-01</startDate>
@@ -447,13 +495,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2823331</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2023-12-01</startDate>
@@ -483,13 +535,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825995</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-06-01</startDate>
@@ -519,13 +575,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825771</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-05-10</startDate>
@@ -555,13 +615,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2824685</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-02-02</startDate>
@@ -591,13 +655,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825991</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-06-01</startDate>
@@ -627,13 +695,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825771</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-05-10</startDate>
@@ -663,13 +735,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825985</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-06-01</startDate>
@@ -699,13 +775,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2824561</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-02-01</startDate>
@@ -735,13 +815,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2823939</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-01-01</startDate>
@@ -771,13 +855,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825845</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-06-01</startDate>
@@ -807,13 +895,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2805571</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2020-01-01</startDate>
@@ -843,13 +935,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2822235</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2023-09-01</startDate>
@@ -879,13 +975,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825845</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-06-01</startDate>
@@ -915,13 +1015,17 @@
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825983</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
-                <include>
-                    <serviceClasses/>
-                </include>
-                <exclude>
-                    <serviceClasses/>
-                </exclude>
-            </scopeOfApplicability>
+        <include>
+            <serviceClasses>
+                <serviceClass>All</serviceClass>
+            </serviceClasses>
+        </include>
+        <exclude>
+            <serviceClasses>
+                <serviceClass>11</serviceClass>
+            </serviceClasses>
+        </exclude>
+    </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-06-01</startDate>
