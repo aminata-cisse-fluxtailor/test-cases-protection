@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ratePlans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Flux-Tailor/rate-plan-schema/refs/tags/v0.9/rate_plans.xsd">
+    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Flux-Tailor/rate-plan-schema/refs/tags/v0.9/rate-plan-schema/rate_plans.xsd">
 
     <ratePlan ratePlanCodeUnique="EDS-CED-SC2-1-960">
         <ratePlanName>Rate I - General - Small</ratePlanName>
         <dateDraftUpdate>2024-01-08</dateDraftUpdate>
         <dateEffective>2024-01-01</dateEffective>
-        <dateCancellation></dateCancellation>
+        <dateCancellation>2025-01-01</dateCancellation>
         <ratePlanIedrOrgAbbreviation>CED</ratePlanIedrOrgAbbreviation>
-        <serviceType>Electric</serviceType>
+        <service>Electric</service>
         <customerClass>Commercial</customerClass>
         <serviceClassNumber>2</serviceClassNumber>
         <serviceClassName>Service Classification No. 2</serviceClassName>
