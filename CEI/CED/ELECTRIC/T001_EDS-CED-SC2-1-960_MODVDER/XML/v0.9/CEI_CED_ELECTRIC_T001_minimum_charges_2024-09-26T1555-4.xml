@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <minimumCharges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Flux-Tailor/rate-plan-schema/refs/tags/v0.9/rate-plan-schema/minimum_charges.xsd">
+    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Flux-Tailor/rate-plan-schema/refs/tags/v0.9/minimum_charges.xsd">
     
     <minimumCharge>
         <servicePeriod>
