@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ratePlanScenario xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="file:/Users/boek/Library/CloudStorage/GoogleDrive-klaar@fluxtailor.com/My%20Drive/DataStandards/RatePlanData/IEDR/rate-plan-schema/rate_plan_data_output.xsd">
+ xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Flux-Tailor/rate-plan-schema/refs/tags/v0.9/rate_plan_data_output.xsd">
     <ratePlanSelection>
         <ratePlanName>value</ratePlanName>
         <dateDraftUpdate>value</dateDraftUpdate>
