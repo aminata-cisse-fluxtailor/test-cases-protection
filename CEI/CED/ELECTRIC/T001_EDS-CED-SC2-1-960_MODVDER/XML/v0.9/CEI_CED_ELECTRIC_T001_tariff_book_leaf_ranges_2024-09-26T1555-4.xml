@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tariffBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Flux-Tailor/rate-plan-schema/refs/tags/v0.9/tariff_book_leaf_ranges.xsd">
-    
     <sourceDocKind>TariffBookLeafRange</sourceDocKind>
         <sourceURL>https://iedr-public-static-files.s3.amazonaws.com/rate-tariffs/coned/electric/10/coned_electric_10_effective.pdf</sourceURL>
         <datePublished>2023-07-27</datePublished>
@@ -25,11 +24,17 @@
                 <tariffBookCharges>
                     <scopeOfApplicability>
                         <include>
-                            <serviceClasses>2</serviceClasses>
-                            <serviceSubClasses>2-1</serviceSubClasses>
+                            <serviceClasses>
+                                <serviceClass>2</serviceClass>
+                            </serviceClasses>
+                            <serviceSubClasses>
+                                <serviceSubClass>2-1</serviceSubClass>
+                            </serviceSubClasses>
                         </include>
                         <exclude>
-                            <serviceClasses></serviceClasses>
+                            <serviceClasses>
+                                <serviceClass></serviceClass>
+                            </serviceClasses>
                         </exclude>
                     </scopeOfApplicability>
                     <tariffBookCharge>
@@ -84,7 +89,6 @@
                 <DPSCaseNumber>22-E-0064</DPSCaseNumber>
             </tariffBookLeafRange>
         </tariffBookLeafRanges>
-    
 </tariffBook>
 
 
