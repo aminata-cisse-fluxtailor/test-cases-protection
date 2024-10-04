@@ -7,10 +7,9 @@
             <serviceTierNr>1</serviceTierNr>
             <seasonName>Winter</seasonName>
             <measurementSpecification>
-                <calculationMethod>fixed</calculationMethod>
+                <calculationMethod>by_metered_quantity</calculationMethod>
                 <measurementSource>energy</measurementSource>
                 <unitOfMeasure>Wh</unitOfMeasure>
-                <inclusionStatus>inclusive</inclusionStatus>
                 <unitMultiplierPowerOfTen>1</unitMultiplierPowerOfTen>
                 <measurementInterval>
                     <calculationMode>PERIOD</calculationMode>

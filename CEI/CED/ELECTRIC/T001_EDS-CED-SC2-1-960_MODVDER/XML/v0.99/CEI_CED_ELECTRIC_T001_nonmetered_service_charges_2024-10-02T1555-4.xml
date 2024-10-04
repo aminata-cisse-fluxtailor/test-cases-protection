@@ -8,20 +8,7 @@
         </servicePeriod>
         <chargeName></chargeName>
         <description></description>
-        <measurementDefinition>
-            <calculationMethod>fixed</calculationMethod>
-            <measurementSource>energy</measurementSource>
-            <unitOfMeasure>Wh</unitOfMeasure>
-            <inclusionStatus>inclusive</inclusionStatus>
-            <unitMultiplierPowerOfTen>1</unitMultiplierPowerOfTen>
-            <measurementInterval>
-                <calculationMode>PERIOD</calculationMode>
-                <calcIntervalKind>MONTH</calcIntervalKind>
-                <calcIntervalPer>1</calcIntervalPer>
-            </measurementInterval>
-        </measurementDefinition>
-        <value>0</value>
-        <uom>Wh</uom>
+        <chargeValue>0</chargeValue>
         <chargesComponent>delivery</chargesComponent>
     </nonmeteredServiceCharge>
     
