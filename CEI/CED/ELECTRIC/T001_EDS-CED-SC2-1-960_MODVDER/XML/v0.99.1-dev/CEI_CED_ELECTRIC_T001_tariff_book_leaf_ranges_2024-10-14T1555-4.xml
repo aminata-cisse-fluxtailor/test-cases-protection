@@ -27,17 +27,7 @@
                             <serviceClasses>
                                 <serviceClass>2</serviceClass>
                             </serviceClasses>
-                            <territoryId></territoryId>
-                            <season></season>
-                            <phases>
-                                <phase>AAA</phase>
-                            </phases>
                         </include>
-                        <exclude>
-                            <serviceClasses>
-                                <serviceClass></serviceClass>
-                            </serviceClasses>
-                        </exclude>
                     </scopeOfApplicability>
                     <tariffBookCharge>
                         <servicePeriod>
