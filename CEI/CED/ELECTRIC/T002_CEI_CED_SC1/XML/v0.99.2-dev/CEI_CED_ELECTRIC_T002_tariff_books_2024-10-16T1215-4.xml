@@ -497,7 +497,7 @@
                                         <service>Electric</service>
                                         <customerClass>Residential</customerClass>
                                         <customerClass>Religious</customerClass>
-                                        <ratePlanDescription>Available to Residential and Religious customers other than those billed under Rate II or Rate III</ratePlanDescription>
+                                        <ratePlanDescription>Available to Residential and Religious customers who made an election before March 1, 2014, to be billed at a time-of-day rate</ratePlanDescription>
                                         <tariffDpsCaseNumber>22-E-0064</tariffDpsCaseNumber>
                                         <ratePlanHasRetailSupply>false</ratePlanHasRetailSupply>
                                         <ratePlanHasDemandCharges>false</ratePlanHasDemandCharges>
@@ -763,7 +763,7 @@
                                         <service>Electric</service>
                                         <customerClass>Residential</customerClass>
                                         <customerClass>Religious</customerClass>
-                                        <ratePlanDescription>Available to Residential and Religious customers other than those billed under Rate II or Rate III</ratePlanDescription>
+                                        <ratePlanDescription>Available to Residential and Religious customers who made an election before March 1, 2014, to be billed at a time-of-day rate</ratePlanDescription>
                                         <tariffDpsCaseNumber>22-E-0064</tariffDpsCaseNumber>
                                         <ratePlanHasRetailSupply>false</ratePlanHasRetailSupply>
                                         <ratePlanHasDemandCharges>false</ratePlanHasDemandCharges>
@@ -1045,7 +1045,7 @@
                                         <service>Electric</service>
                                         <customerClass>Residential</customerClass>
                                         <customerClass>Religious</customerClass>
-                                        <ratePlanDescription>Available to Residential and Religious customers other than those billed under Rate II or Rate III</ratePlanDescription>
+                                        <ratePlanDescription>Available to Residential and Religious customers who made an election before March 1, 2014, to be billed under Special Provision D</ratePlanDescription>
                                         <tariffDpsCaseNumber>22-E-0064</tariffDpsCaseNumber>
                                         <ratePlanHasRetailSupply>false</ratePlanHasRetailSupply>
                                         <ratePlanHasDemandCharges>false</ratePlanHasDemandCharges>
@@ -1312,9 +1312,9 @@
                                         <service>Electric</service>
                                         <customerClass>Residential</customerClass>
                                         <customerClass>Religious</customerClass>
-                                        <ratePlanDescription>Available to Residential and Religious customers other than those billed under Rate II or Rate III</ratePlanDescription>
+                                        <ratePlanDescription>Available to Residential and Religious customers who made an election before March 1, 2014, to be billed under Special Provision D</ratePlanDescription>
                                         <tariffDpsCaseNumber>22-E-0064</tariffDpsCaseNumber>
-                                        <ratePlanHasRetailSupply>false</ratePlanHasRetailSupply>
+                                        <ratePlanHasRetailSupply>true</ratePlanHasRetailSupply>
                                         <ratePlanHasDemandCharges>false</ratePlanHasDemandCharges>
                                         <ratePlanHasIcapTag>false</ratePlanHasIcapTag>
                                         <ratePlanHasReactivePower>false</ratePlanHasReactivePower>
@@ -1613,7 +1613,7 @@
                                     <service>Electric</service>
                                     <customerClass>Residential</customerClass>
                                     <customerClass>Religious</customerClass>
-                                    <ratePlanDescription>Available to Residential and Religious customers other than those billed under Rate II or Rate III</ratePlanDescription>
+                                    <ratePlanDescription>Available to Residential and Religious customers  who elect to be billed at a time-of-day rate on or after March 1, 2014, or under Special Provision F</ratePlanDescription>
                                     <tariffDpsCaseNumber>22-E-0064</tariffDpsCaseNumber>
                                     <ratePlanHasRetailSupply>false</ratePlanHasRetailSupply>
                                     <ratePlanHasDemandCharges>false</ratePlanHasDemandCharges>
@@ -1879,7 +1879,7 @@
                                     <service>Electric</service>
                                     <customerClass>Residential</customerClass>
                                     <customerClass>Religious</customerClass>
-                                    <ratePlanDescription>Available to Residential and Religious customers other than those billed under Rate II or Rate III</ratePlanDescription>
+                                    <ratePlanDescription>Available to Residential and Religious customers  who elect to be billed at a time-of-day rate on or after March 1, 2014, or under Special Provision F</ratePlanDescription>
                                     <tariffDpsCaseNumber>22-E-0064</tariffDpsCaseNumber>
                                     <ratePlanHasRetailSupply>true</ratePlanHasRetailSupply>
                                     <ratePlanHasDemandCharges>false</ratePlanHasDemandCharges>
@@ -2180,7 +2180,7 @@
                                     <service>Electric</service>
                                     <customerClass>Residential</customerClass>
                                     <customerClass>Religious</customerClass>
-                                    <ratePlanDescription>Available to Residential and Religious customers other than those billed under Rate II or Rate III</ratePlanDescription>
+                                    <ratePlanDescription>Available to Residential and Religious customers on an opt-in basis.</ratePlanDescription>
                                     <tariffDpsCaseNumber>22-E-0064</tariffDpsCaseNumber>
                                     <ratePlanHasRetailSupply>false</ratePlanHasRetailSupply>
                                     <ratePlanHasDemandCharges>true</ratePlanHasDemandCharges>
@@ -2476,7 +2476,7 @@
                                     <service>Electric</service>
                                     <customerClass>Residential</customerClass>
                                     <customerClass>Religious</customerClass>
-                                    <ratePlanDescription>Available to Residential and Religious customers other than those billed under Rate II or Rate III</ratePlanDescription>
+                                    <ratePlanDescription>Available to Residential and Religious customers on an opt-in basis.</ratePlanDescription>
                                     <tariffDpsCaseNumber>22-E-0064</tariffDpsCaseNumber>
                                     <ratePlanHasRetailSupply>true</ratePlanHasRetailSupply>
                                     <ratePlanHasDemandCharges>true</ratePlanHasDemandCharges>
