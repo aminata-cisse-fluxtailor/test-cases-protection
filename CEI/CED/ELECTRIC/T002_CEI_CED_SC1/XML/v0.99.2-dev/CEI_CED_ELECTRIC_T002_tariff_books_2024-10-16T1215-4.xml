@@ -65,21 +65,21 @@
                                         <status>EFFECTIVE</status>
                                     </tariffBookLeafRange>
                                 </tariffBookLeafRanges>
-                                <ratePlan ratePlanCodeUnique="EDS-CED-SC1-1-224">
+                                <ratePlan ratePlanCodeUnique="EDS-CED-SC1-1-442">
                                     <ratePlanIedrOrgAbbreviation>CED</ratePlanIedrOrgAbbreviation>
                                     <tariffUtilityName>Consolidated Edison Company of New York, Inc.</tariffUtilityName>
                                     <tariffUtilityPscNumber>10</tariffUtilityPscNumber>
                                     <dateEffective>2024-02-04</dateEffective>
                                     <serviceClassNumber>1</serviceClassNumber>
                                     <serviceClassName>Service Classification No. 1</serviceClassName>
-                                    <rateCode>SC1-1</rateCode>
+                                    <rateCode>SC1-1-RA</rateCode>
                                     <ratePlanName>Rate I - Residential and Religious</ratePlanName>
                                     <service>Electric</service>
                                     <customerClass>Residential</customerClass>
                                     <customerClass>Religious</customerClass>
                                     <ratePlanDescription>Available to Residential and Religious customers other than those billed under Rate II or Rate III</ratePlanDescription>
                                     <tariffDpsCaseNumber>22-E-0064</tariffDpsCaseNumber>
-                                    <ratePlanHasRetailSupply>false</ratePlanHasRetailSupply>
+                                    <ratePlanHasRetailSupply>true</ratePlanHasRetailSupply>
                                     <ratePlanHasDemandCharges>false</ratePlanHasDemandCharges>
                                     <ratePlanHasIcapTag>false</ratePlanHasIcapTag>
                                     <ratePlanHasReactivePower>false</ratePlanHasReactivePower>
@@ -258,21 +258,21 @@
                                         <status>EFFECTIVE</status>
                                     </tariffBookLeafRange>
                                 </tariffBookLeafRanges>
-                                <ratePlan ratePlanCodeUnique="EDS-CED-SC1-1-442">
+                                <ratePlan ratePlanCodeUnique="EDS-CED-SC1-1-224">
                                     <ratePlanIedrOrgAbbreviation>CED</ratePlanIedrOrgAbbreviation>
                                     <tariffUtilityName>Consolidated Edison Company of New York, Inc.</tariffUtilityName>
                                     <tariffUtilityPscNumber>10</tariffUtilityPscNumber>
                                     <dateEffective>2024-02-04</dateEffective>
                                     <serviceClassNumber>1</serviceClassNumber>
                                     <serviceClassName>Service Classification No. 1</serviceClassName>
-                                    <rateCode>SC1-1-RA</rateCode>
+                                    <rateCode>SC1-1</rateCode>
                                     <ratePlanName>Rate I - Residential and Religious</ratePlanName>
                                     <service>Electric</service>
                                     <customerClass>Residential</customerClass>
                                     <customerClass>Religious</customerClass>
                                     <ratePlanDescription>Available to Residential and Religious customers other than those billed under Rate II or Rate III</ratePlanDescription>
                                     <tariffDpsCaseNumber>22-E-0064</tariffDpsCaseNumber>
-                                    <ratePlanHasRetailSupply>true</ratePlanHasRetailSupply>
+                                    <ratePlanHasRetailSupply>false</ratePlanHasRetailSupply>
                                     <ratePlanHasDemandCharges>false</ratePlanHasDemandCharges>
                                     <ratePlanHasIcapTag>false</ratePlanHasIcapTag>
                                     <ratePlanHasReactivePower>false</ratePlanHasReactivePower>
@@ -485,21 +485,21 @@
                                             <status>EFFECTIVE</status>
                                         </tariffBookLeafRange>
                                     </tariffBookLeafRanges>
-                                    <ratePlan ratePlanCodeUnique="EDS-CED-SC1-2-700">
+                                    <ratePlan ratePlanCodeUnique="ERS-CED-SC1-2-642">
                                         <ratePlanIedrOrgAbbreviation>CED</ratePlanIedrOrgAbbreviation>
                                         <tariffUtilityName>Consolidated Edison Company of New York, Inc.</tariffUtilityName>
                                         <tariffUtilityPscNumber>10</tariffUtilityPscNumber>
                                         <dateEffective>2024-02-04</dateEffective>
                                         <serviceClassNumber>1</serviceClassNumber>
                                         <serviceClassName>Service Classification No. 1</serviceClassName>
-                                        <rateCode>SC1-2</rateCode>
+                                        <rateCode>SC1-2-RA</rateCode>
                                         <ratePlanName>Rate II - Residential and Religious - Voluntary Time-of-Day</ratePlanName>
                                         <service>Electric</service>
                                         <customerClass>Residential</customerClass>
                                         <customerClass>Religious</customerClass>
                                         <ratePlanDescription>Available to Residential and Religious customers who made an election before March 1, 2014, to be billed at a time-of-day rate</ratePlanDescription>
                                         <tariffDpsCaseNumber>22-E-0064</tariffDpsCaseNumber>
-                                        <ratePlanHasRetailSupply>false</ratePlanHasRetailSupply>
+                                        <ratePlanHasRetailSupply>true</ratePlanHasRetailSupply>
                                         <ratePlanHasDemandCharges>false</ratePlanHasDemandCharges>
                                         <ratePlanHasIcapTag>false</ratePlanHasIcapTag>
                                         <ratePlanHasReactivePower>false</ratePlanHasReactivePower>
@@ -751,14 +751,14 @@
                                             <status>EFFECTIVE</status>
                                         </tariffBookLeafRange>
                                     </tariffBookLeafRanges>
-                                    <ratePlan ratePlanCodeUnique="ERS-CED-SC1-2-642">
+                                    <ratePlan ratePlanCodeUnique="ERS-CED-SC1-2-700">
                                         <ratePlanIedrOrgAbbreviation>CED</ratePlanIedrOrgAbbreviation>
                                         <tariffUtilityName>Consolidated Edison Company of New York, Inc.</tariffUtilityName>
                                         <tariffUtilityPscNumber>10</tariffUtilityPscNumber>
                                         <dateEffective>2024-02-04</dateEffective>
                                         <serviceClassNumber>1</serviceClassNumber>
                                         <serviceClassName>Service Classification No. 1</serviceClassName>
-                                        <rateCode>SC1-2-RA</rateCode>
+                                        <rateCode>SC1-2</rateCode>
                                         <ratePlanName>Rate II - Residential and Religious - Voluntary Time-of-Day</ratePlanName>
                                         <service>Electric</service>
                                         <customerClass>Residential</customerClass>
@@ -1032,7 +1032,7 @@
                                             <status>EFFECTIVE</status>
                                         </tariffBookLeafRange>
                                     </tariffBookLeafRanges>
-                                    <ratePlan ratePlanCodeUnique="EDS-CED-SC1-2-941">
+                                    <ratePlan ratePlanCodeUnique="ERS-CED-SC1-2-738">
                                         <ratePlanIedrOrgAbbreviation>CED</ratePlanIedrOrgAbbreviation>
                                         <tariffUtilityName>Consolidated Edison Company of New York, Inc.</tariffUtilityName>
                                         <tariffUtilityPscNumber>10</tariffUtilityPscNumber>
@@ -1040,14 +1040,14 @@
                                         <dateCancellation>2023-12-31</dateCancellation>
                                         <serviceClassNumber>1</serviceClassNumber>
                                         <serviceClassName>Service Classification No. 1</serviceClassName>
-                                        <rateCode>SC1-2D</rateCode>
+                                        <rateCode>SC1-2D-RA</rateCode>
                                         <ratePlanName>Rate II - Residential and Religious - Voluntary Time-of-Day</ratePlanName>
                                         <service>Electric</service>
                                         <customerClass>Residential</customerClass>
                                         <customerClass>Religious</customerClass>
                                         <ratePlanDescription>Available to Residential and Religious customers who made an election before March 1, 2014, to be billed under Special Provision D</ratePlanDescription>
                                         <tariffDpsCaseNumber>22-E-0064</tariffDpsCaseNumber>
-                                        <ratePlanHasRetailSupply>false</ratePlanHasRetailSupply>
+                                        <ratePlanHasRetailSupply>true</ratePlanHasRetailSupply>
                                         <ratePlanHasDemandCharges>false</ratePlanHasDemandCharges>
                                         <ratePlanHasIcapTag>false</ratePlanHasIcapTag>
                                         <ratePlanHasReactivePower>false</ratePlanHasReactivePower>
@@ -1299,7 +1299,7 @@
                                             <status>EFFECTIVE</status>
                                         </tariffBookLeafRange>
                                     </tariffBookLeafRanges>
-                                    <ratePlan ratePlanCodeUnique="ERS-CED-SC1-2-738">
+                                    <ratePlan ratePlanCodeUnique="EDS-CED-SC1-2-941">
                                         <ratePlanIedrOrgAbbreviation>CED</ratePlanIedrOrgAbbreviation>
                                         <tariffUtilityName>Consolidated Edison Company of New York, Inc.</tariffUtilityName>
                                         <tariffUtilityPscNumber>10</tariffUtilityPscNumber>
@@ -1307,14 +1307,14 @@
                                         <dateCancellation>2023-12-31</dateCancellation>
                                         <serviceClassNumber>1</serviceClassNumber>
                                         <serviceClassName>Service Classification No. 1</serviceClassName>
-                                        <rateCode>SC1-2D-RA</rateCode>
+                                        <rateCode>SC1-2D</rateCode>
                                         <ratePlanName>Rate II - Residential and Religious - Voluntary Time-of-Day</ratePlanName>
                                         <service>Electric</service>
                                         <customerClass>Residential</customerClass>
                                         <customerClass>Religious</customerClass>
                                         <ratePlanDescription>Available to Residential and Religious customers who made an election before March 1, 2014, to be billed under Special Provision D</ratePlanDescription>
                                         <tariffDpsCaseNumber>22-E-0064</tariffDpsCaseNumber>
-                                        <ratePlanHasRetailSupply>true</ratePlanHasRetailSupply>
+                                        <ratePlanHasRetailSupply>false</ratePlanHasRetailSupply>
                                         <ratePlanHasDemandCharges>false</ratePlanHasDemandCharges>
                                         <ratePlanHasIcapTag>false</ratePlanHasIcapTag>
                                         <ratePlanHasReactivePower>false</ratePlanHasReactivePower>
@@ -1601,27 +1601,27 @@
                                         <status>EFFECTIVE</status>
                                     </tariffBookLeafRange>
                                 </tariffBookLeafRanges>
-                                <ratePlan ratePlanCodeUnique="EDS-CED-SC1-3-775">
+                                <ratePlan ratePlanCodeUnique="ERS-CED-SC1-3-466">
                                     <ratePlanIedrOrgAbbreviation>CED</ratePlanIedrOrgAbbreviation>
                                     <tariffUtilityName>Consolidated Edison Company of New York, Inc.</tariffUtilityName>
                                     <tariffUtilityPscNumber>10</tariffUtilityPscNumber>
                                     <dateEffective>2024-02-04</dateEffective>
                                     <serviceClassNumber>1</serviceClassNumber>
                                     <serviceClassName>Service Classification No. 1</serviceClassName>
-                                    <rateCode>SC1-3</rateCode>
+                                    <rateCode>SC1-3-RA</rateCode>
                                     <ratePlanName>Rate III - Residential and Religious - Voluntary Time-of-Day</ratePlanName>
                                     <service>Electric</service>
                                     <customerClass>Residential</customerClass>
                                     <customerClass>Religious</customerClass>
                                     <ratePlanDescription>Available to Residential and Religious customers  who elect to be billed at a time-of-day rate on or after March 1, 2014, or under Special Provision F</ratePlanDescription>
                                     <tariffDpsCaseNumber>22-E-0064</tariffDpsCaseNumber>
-                                    <ratePlanHasRetailSupply>false</ratePlanHasRetailSupply>
+                                    <ratePlanHasRetailSupply>true</ratePlanHasRetailSupply>
                                     <ratePlanHasDemandCharges>false</ratePlanHasDemandCharges>
                                     <ratePlanHasIcapTag>false</ratePlanHasIcapTag>
                                     <ratePlanHasReactivePower>false</ratePlanHasReactivePower>
                                     <ratePlanHasTimeOfUsePricing>true</ratePlanHasTimeOfUsePricing>
                                     <ratePlanIsRateRider>false</ratePlanIsRateRider>
-                                    <ratePlanNumberRatePeriods>1</ratePlanNumberRatePeriods>
+                                    <ratePlanNumberRatePeriods>6</ratePlanNumberRatePeriods>
                                 </ratePlan>
                                 <eligibility>
                                     <criterion>
@@ -1867,27 +1867,27 @@
                                         <status>EFFECTIVE</status>
                                     </tariffBookLeafRange>
                                 </tariffBookLeafRanges>
-                                <ratePlan ratePlanCodeUnique="ERS-CED-SC1-3-466">
+                                <ratePlan ratePlanCodeUnique="ERS-CED-SC1-3-775">
                                     <ratePlanIedrOrgAbbreviation>CED</ratePlanIedrOrgAbbreviation>
                                     <tariffUtilityName>Consolidated Edison Company of New York, Inc.</tariffUtilityName>
                                     <tariffUtilityPscNumber>10</tariffUtilityPscNumber>
                                     <dateEffective>2024-02-04</dateEffective>
                                     <serviceClassNumber>1</serviceClassNumber>
                                     <serviceClassName>Service Classification No. 1</serviceClassName>
-                                    <rateCode>SC1-3-RA</rateCode>
+                                    <rateCode>SC1-3</rateCode>
                                     <ratePlanName>Rate III - Residential and Religious - Voluntary Time-of-Day</ratePlanName>
                                     <service>Electric</service>
                                     <customerClass>Residential</customerClass>
                                     <customerClass>Religious</customerClass>
                                     <ratePlanDescription>Available to Residential and Religious customers  who elect to be billed at a time-of-day rate on or after March 1, 2014, or under Special Provision F</ratePlanDescription>
                                     <tariffDpsCaseNumber>22-E-0064</tariffDpsCaseNumber>
-                                    <ratePlanHasRetailSupply>true</ratePlanHasRetailSupply>
+                                    <ratePlanHasRetailSupply>false</ratePlanHasRetailSupply>
                                     <ratePlanHasDemandCharges>false</ratePlanHasDemandCharges>
                                     <ratePlanHasIcapTag>false</ratePlanHasIcapTag>
                                     <ratePlanHasReactivePower>false</ratePlanHasReactivePower>
                                     <ratePlanHasTimeOfUsePricing>true</ratePlanHasTimeOfUsePricing>
                                     <ratePlanIsRateRider>false</ratePlanIsRateRider>
-                                    <ratePlanNumberRatePeriods>1</ratePlanNumberRatePeriods>
+                                    <ratePlanNumberRatePeriods>6</ratePlanNumberRatePeriods>
                                 </ratePlan>
                                 <eligibility>
                                     <criterion>
@@ -2168,27 +2168,27 @@
                                         <status>EFFECTIVE</status>
                                     </tariffBookLeafRange>
                                 </tariffBookLeafRanges>
-                                <ratePlan ratePlanCodeUnique="EDS-CED-SC1-4-522">
+                                <ratePlan ratePlanCodeUnique="ERS-CED-SC1-4-359">
                                     <ratePlanIedrOrgAbbreviation>CED</ratePlanIedrOrgAbbreviation>
                                     <tariffUtilityName>Consolidated Edison Company of New York, Inc.</tariffUtilityName>
                                     <tariffUtilityPscNumber>10</tariffUtilityPscNumber>
                                     <dateEffective>2024-02-04</dateEffective>
                                     <serviceClassNumber>1</serviceClassNumber>
                                     <serviceClassName>Service Classification No. 1</serviceClassName>
-                                    <rateCode>SC1-4</rateCode>
+                                    <rateCode>SC1-4-RA</rateCode>
                                     <ratePlanName>Rate IV - Residential and Religious - Optional Demand-Based</ratePlanName>
                                     <service>Electric</service>
                                     <customerClass>Residential</customerClass>
                                     <customerClass>Religious</customerClass>
                                     <ratePlanDescription>Available to Residential and Religious customers on an opt-in basis.</ratePlanDescription>
                                     <tariffDpsCaseNumber>22-E-0064</tariffDpsCaseNumber>
-                                    <ratePlanHasRetailSupply>false</ratePlanHasRetailSupply>
+                                    <ratePlanHasRetailSupply>true</ratePlanHasRetailSupply>
                                     <ratePlanHasDemandCharges>true</ratePlanHasDemandCharges>
                                     <ratePlanHasIcapTag>false</ratePlanHasIcapTag>
                                     <ratePlanHasReactivePower>false</ratePlanHasReactivePower>
                                     <ratePlanHasTimeOfUsePricing>true</ratePlanHasTimeOfUsePricing>
                                     <ratePlanIsRateRider>false</ratePlanIsRateRider>
-                                    <ratePlanNumberRatePeriods>1</ratePlanNumberRatePeriods>
+                                    <ratePlanNumberRatePeriods>6</ratePlanNumberRatePeriods>
                                 </ratePlan>
                                 <eligibility>
                                     <criterion>
@@ -2464,27 +2464,27 @@
                                         <status>EFFECTIVE</status>
                                     </tariffBookLeafRange>
                                 </tariffBookLeafRanges>
-                                <ratePlan ratePlanCodeUnique="ERS-CED-SC1-4-359">
+                                <ratePlan ratePlanCodeUnique="ERS-CED-SC1-4-522">
                                     <ratePlanIedrOrgAbbreviation>CED</ratePlanIedrOrgAbbreviation>
                                     <tariffUtilityName>Consolidated Edison Company of New York, Inc.</tariffUtilityName>
                                     <tariffUtilityPscNumber>10</tariffUtilityPscNumber>
                                     <dateEffective>2024-02-04</dateEffective>
                                     <serviceClassNumber>1</serviceClassNumber>
                                     <serviceClassName>Service Classification No. 1</serviceClassName>
-                                    <rateCode>SC1-4-RA</rateCode>
+                                    <rateCode>SC1-4</rateCode>
                                     <ratePlanName>Rate IV - Residential and Religious - Optional Demand-Based</ratePlanName>
                                     <service>Electric</service>
                                     <customerClass>Residential</customerClass>
                                     <customerClass>Religious</customerClass>
                                     <ratePlanDescription>Available to Residential and Religious customers on an opt-in basis.</ratePlanDescription>
                                     <tariffDpsCaseNumber>22-E-0064</tariffDpsCaseNumber>
-                                    <ratePlanHasRetailSupply>true</ratePlanHasRetailSupply>
+                                    <ratePlanHasRetailSupply>false</ratePlanHasRetailSupply>
                                     <ratePlanHasDemandCharges>true</ratePlanHasDemandCharges>
                                     <ratePlanHasIcapTag>false</ratePlanHasIcapTag>
                                     <ratePlanHasReactivePower>false</ratePlanHasReactivePower>
                                     <ratePlanHasTimeOfUsePricing>true</ratePlanHasTimeOfUsePricing>
                                     <ratePlanIsRateRider>false</ratePlanIsRateRider>
-                                    <ratePlanNumberRatePeriods>1</ratePlanNumberRatePeriods>
+                                    <ratePlanNumberRatePeriods>6</ratePlanNumberRatePeriods>
                                 </ratePlan>
                                 <eligibility>
                                     <criterion>
