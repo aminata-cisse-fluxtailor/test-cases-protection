@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tariffBooks xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Flux-Tailor/rate-plan-schema/refs/heads/main/tariff_books.xsd">
+ xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Flux-Tailor/rate-plan-schema/refs/tags/v0.99.3-dev/tariff_books.xsd">
     <tariffBook>
         <sourceDocKind>TariffBook</sourceDocKind>
         <sourceURL>https://github.com/Flux-Tailor/rate-plan-test-cases/blob/main/AGR/NYE/ELECTRIC/T002_AGR_NYE_SC1/raw_source_data/tariffBook_NYE_ELECTRIC_PSC120_effective_2024-10-16.pdf</sourceURL>
@@ -50,7 +50,7 @@
                             </tariffBookLeafRange>
                         </tariffBookLeafRanges>
                         <ratePlanOptions>
-                            <ratePlanOption ratePlanCodeUnique="ERS-AGR-NYE-SC01-RES-001-DRAFT-CODE">
+                            <ratePlanOption>
                                 <tariffBookLeafRanges>
                                     <tariffBookLeafRange>
                                         <startLeafNbr>119</startLeafNbr>
@@ -65,238 +65,98 @@
                                         <status>EFFECTIVE</status>
                                     </tariffBookLeafRange>
                                 </tariffBookLeafRanges>
-                                <ratePlan>
+                                <ratePlan ratePlanCodeUnique="ERS-AGR-NYE-SC01-RES1">
+                                 <!-- drafted RPCU as option is missing from currently production data set-->
                                     <ratePlanIedrOrgAbbreviation>NYE</ratePlanIedrOrgAbbreviation>
                                     <tariffUtilityName>New York State Electric &amp; Gas Corporation</tariffUtilityName>
-                                    <tariffUtilityPscNumber>m</tariffUtilityPscNumber>
-                                    <dateEffective>2026-02-04Z</dateEffective>
-                                    <serviceClassNumber>365</serviceClassNumber>
-                                    <serviceClassName>WuQ_K_</serviceClassName>
-                                    <rateCode>Y6CjF</rateCode>
-                                    <ratePlanName>xma</ratePlanName>
+                                    <tariffUtilityPscNumber>12</tariffUtilityPscNumber>
+                                   <!-- nr is actually 120, need to update schema to allow 3 digits-->
+                                    <dateEffective>2023-11-01</dateEffective>
+                                    <serviceClassNumber>1</serviceClassNumber>
+                                    <serviceClassName>Service Classification No. 1</serviceClassName>
+                                    <rateCode>SC01</rateCode>
+                                    <ratePlanName>Service Classification No. 1</ratePlanName>
                                     <service>Electric</service>
-                                    <customerClass>Interruptible</customerClass>
-                                    <ratePlanDescription>f_01AJYHT8e5abYsUtyxTQhVL0LcYrBqjcA6Ig.5NCZqtvlwgrFaJqNueJoNT4UbpI9uxyrlcFDEwQoahuTM6EENeKJl5r4txVBlUyaawVM.29vXeNO-Ue.b</ratePlanDescription>
-                                    <tariffDpsCaseNumber>ge</tariffDpsCaseNumber>
-                                    <ratePlanNumberRatePeriods>9</ratePlanNumberRatePeriods>
-                                 
+                                    <customerClass>Residential</customerClass>
+                                    <ratePlanDescription>Residential Straight</ratePlanDescription>
+                                    <tariffDpsCaseNumber>22-E-0317</tariffDpsCaseNumber>
+                                    <ratePlanNumberRatePeriods>1</ratePlanNumberRatePeriods>
                                 </ratePlan>
                                <eligibility>
                                    <criterion>
                                        <criterionKind>CustomerClass</criterionKind>
-                                       <name></name>
-                                       <description></description>
+                                       <name>Residential</name>
+                                       <description>Residential Customers in individual private dwellings<!--commented out portion to fit required length to validate, notes need to expand maxlength: flats or apartments, and Religious Customers utilizing service exclusively in connection with religious purposes by a corporation or association organized and conducted in good faith for religious purposes. Applicable also to use exclusively in connection with a community residence for the mentally disabled, as defined in subdivision 28, 28-a, or 28-b of section 1.03 of the mental hygiene law, provided that such residence is operated by a not-for-profit corporation and, if supervisory staff is on site 24 hours a day, that the residence provides living accommodations for 14 or fewer residents. Also applicable to any not-for-profit corporation that is a veterans' organization that owns or leases a post or hall.--></description>
                                    </criterion>
-                                   <limit>
-                                       <limitKind>ElectricDemand</limitKind>
-                                       <name>Deemed electric demand</name>
-                                       <limitMeasureSpecification>
-                                           <calculationMethod>by_variable_utility_settings</calculationMethod>
-                                       </limitMeasureSpecification>
-                                       <limitValue>500</limitValue>
-                                       <description></description>
-                                   </limit>
+                                   <criterion>
+                                       <criterionKind>Applicability</criterionKind>
+                                       <name>Phases</name>
+                                       <description>Residential Customers: Continuous - Alternating Current, 60 Cycle; 120, 120/208, or 120/240 Volts - Single Phase. <!--commented out portion to fit required length to validate, notes need to expand maxlength: (Characteristics depend upon available circuits.) Religious, Veterans' Organizations, and Community Residence Supportive Living Facility Customers: Continuous - Alternating current, 60 cycle; Single or Three Phase. (Characteristics depend upon available circuits and equipment.)--></description>
+                                   </criterion>
                                </eligibility>
-                                <seasons>
-                                    <season>
-                                        <seasonName>Winter</seasonName>
-                                        <month>1</month>
-                                        <month>2</month>
-                                        <month>3</month>
-                                        <month>4</month>
-                                        <month>5</month>
-                                        <month>6</month>
-                                    </season>
-                                    <season>
-                                        <seasonName>Summer</seasonName>
-                                        <month>7</month>
-                                        <month>8</month>
-                                        <month>9</month>
-                                        <month>10</month>
-                                        <month>10</month>
-                                        <month>12</month>
-                                    </season>
-                                </seasons>
-                                <holidays>
-                                     <holiday>Christmas Day</holiday>
-                                </holidays>
-                                <timeOfUsePeriods>
-                                    <timeOfUsePeriod>
-                                        <effectivePeriod>
-                                            <startDate>2024-01-01</startDate>
-                                        </effectivePeriod>
-                                        <RatePeriodNrNonHolidays>1</RatePeriodNrNonHolidays>
-                                        <RatePeriodNrHolidays>2</RatePeriodNrHolidays>
-                                        <seasonName>Summer</seasonName>
-                                        <dayType>weekday</dayType>
-                                        <peakType>peak</peakType>
-                                        <appliesOnHolidays>0</appliesOnHolidays>
-                                        <timeStart>10:00:00</timeStart>
-                                        <timeEnd>19:00:00</timeEnd>
-                                        <chargesComponent>Delivery</chargesComponent>
-                                        <measurementApplicable>energy</measurementApplicable>
-                                    </timeOfUsePeriod>
-                                    <timeOfUsePeriod>
-                                        <effectivePeriod>
-                                            <startDate>2024-01-01</startDate>
-                                        </effectivePeriod>
-                                        <RatePeriodNrNonHolidays>2</RatePeriodNrNonHolidays>
-                                        <RatePeriodNrHolidays>1</RatePeriodNrHolidays>
-                                        <seasonName>Summer</seasonName>
-                                        <dayType>weekday</dayType>
-                                        <peakType>base</peakType>
-                                        <appliesOnHolidays>0</appliesOnHolidays>
-                                        <timeStart>19:00:00</timeStart>
-                                        <timeEnd>22:00:00</timeEnd>
-                                        <chargesComponent>Delivery</chargesComponent>
-                                        <measurementApplicable>energy</measurementApplicable>
-                                    </timeOfUsePeriod>
-                                    <timeOfUsePeriod>
-                                        <effectivePeriod>
-                                            <startDate>2024-01-01</startDate>
-                                        </effectivePeriod>
-                                        <RatePeriodNrNonHolidays>2</RatePeriodNrNonHolidays>
-                                        <RatePeriodNrHolidays>1</RatePeriodNrHolidays>
-                                        <seasonName>Summer</seasonName>
-                                        <dayType>weekday</dayType>
-                                        <peakType>base</peakType>
-                                        <appliesOnHolidays>0</appliesOnHolidays>
-                                        <timeStart>22:00:00</timeStart>
-                                        <timeEnd>10:00:00</timeEnd>
-                                        <chargesComponent>Delivery</chargesComponent>
-                                        <measurementApplicable>energy</measurementApplicable>
-                                    </timeOfUsePeriod>
-                                    <timeOfUsePeriod>
-                                        <effectivePeriod>
-                                            <startDate>2024-01-01</startDate>
-                                        </effectivePeriod>
-                                        <RatePeriodNrNonHolidays>1</RatePeriodNrNonHolidays>
-                                        <RatePeriodNrHolidays>2</RatePeriodNrHolidays>
-                                        <seasonName>Winter</seasonName>
-                                        <dayType>weekday</dayType>
-                                        <peakType>peak</peakType>
-                                        <appliesOnHolidays>0</appliesOnHolidays>
-                                        <timeStart>10:00:00</timeStart>
-                                        <timeEnd>19:00:00</timeEnd>
-                                        <chargesComponent>Delivery</chargesComponent>
-                                        <measurementApplicable>energy</measurementApplicable>
-                                    </timeOfUsePeriod>
-                                    <timeOfUsePeriod>
-                                        <effectivePeriod>
-                                            <startDate>2024-01-01</startDate>
-                                        </effectivePeriod>
-                                        <RatePeriodNrNonHolidays>2</RatePeriodNrNonHolidays>
-                                        <RatePeriodNrHolidays>1</RatePeriodNrHolidays>
-                                        <seasonName>Winter</seasonName>
-                                        <dayType>weekday</dayType>
-                                        <peakType>base</peakType>
-                                        <appliesOnHolidays>0</appliesOnHolidays>
-                                        <timeStart>19:00:00</timeStart>
-                                        <timeEnd>22:00:00</timeEnd>
-                                        <chargesComponent>Delivery</chargesComponent>
-                                        <measurementApplicable>energy</measurementApplicable>
-                                    </timeOfUsePeriod>
-                                    <timeOfUsePeriod>
-                                        <effectivePeriod>
-                                            <startDate>2024-01-01</startDate>
-                                        </effectivePeriod>
-                                        <RatePeriodNrNonHolidays>2</RatePeriodNrNonHolidays>
-                                        <RatePeriodNrHolidays>1</RatePeriodNrHolidays>
-                                        <seasonName>Winter</seasonName>
-                                        <dayType>weekday</dayType>
-                                        <peakType>base</peakType>
-                                        <appliesOnHolidays>0</appliesOnHolidays>
-                                        <timeStart>22:00:00</timeStart>
-                                        <timeEnd>10:00:00</timeEnd>
-                                        <chargesComponent>Delivery</chargesComponent>
-                                        <measurementApplicable>energy</measurementApplicable>
-                                    </timeOfUsePeriod>
-                                </timeOfUsePeriods>
-                                <serviceTierThresholds>
-                                    <serviceTierThreshold>
-                                        <effectiveInterval>
-                                            <startDate>2024-01-01</startDate>
-                                        </effectiveInterval>
-                                        <serviceTierNr>1</serviceTierNr>
-                                        <seasonName>Summer</seasonName>
-                                        <measurementSpecification>
-                                            <calculationMethod>by_metered_quantity</calculationMethod>
-                                            <inclusionStatus>exclusive</inclusionStatus>
-                                        </measurementSpecification>
-                                        <min_qty>20</min_qty>
-                                        <max_qty>40</max_qty>
-                                    </serviceTierThreshold>
-                                </serviceTierThresholds>
                                 <charges>
                                     <minimumCharge>
                                         <servicePeriod>
-                                            <startDate>2024-01-01</startDate>
+                                            <startDate>2023-11-01</startDate>
+                                            <endDate>2024-04-30</endDate>
                                         </servicePeriod>
-                                        <chargeName></chargeName>
-                                        <chargeValue>17.00</chargeValue>
-                                        <chargesComponent>delivery</chargesComponent>
-                                    </minimumCharge>
-                                    <nonmeteredServiceCharge>
-                                        <servicePeriod>
-                                            <startDate>2024-01-01</startDate>
-                                        </servicePeriod>
-                                        <chargeName>Contract Demand</chargeName>
-                                        <chargeValue>.40</chargeValue>
+                                        <chargeName>Customer Charge</chargeName>
+                                        <chargeValue>19.00</chargeValue>
                                         <measurementDefinition>
-                                            <calculationMethod>by_variable_utility_settings</calculationMethod>
-                                            <measurementSource>demand</measurementSource>
+                                            <calculationMethod>by_billing_cycle</calculationMethod>
+                                            <measurementInterval>
+                                                <calculationMode>PERIOD</calculationMode>
+                                                <calcIntervalKind>MONTH</calcIntervalKind>
+                                                <calcIntervalPer>1</calcIntervalPer>
+                                            </measurementInterval>
                                         </measurementDefinition>
                                         <chargesComponent>delivery</chargesComponent>
-                                    </nonmeteredServiceCharge>
+                                    </minimumCharge>
+                                    <minimumCharge>
+                                        <servicePeriod>
+                                            <startDate>2024-05-01</startDate>
+                                            <endDate>2025-04-30</endDate>
+                                        </servicePeriod>
+                                        <chargeName>Customer Charge</chargeName>
+                                        <chargeValue>19.00</chargeValue>
+                                        <measurementDefinition>
+                                            <calculationMethod>by_billing_cycle</calculationMethod>
+                                            <measurementInterval>
+                                                <calculationMode>PERIOD</calculationMode>
+                                                <calcIntervalKind>MONTH</calcIntervalKind>
+                                                <calcIntervalPer>1</calcIntervalPer>
+                                            </measurementInterval>
+                                        </measurementDefinition>
+                                        <chargesComponent>delivery</chargesComponent>
+                                    </minimumCharge>
+                                    <minimumCharge>
+                                        <servicePeriod>
+                                            <startDate>2025-05-01</startDate>
+                                        </servicePeriod>
+                                        <chargeName>Customer Charge</chargeName>
+                                        <chargeValue>19.00</chargeValue>
+                                        <measurementDefinition>
+                                            <calculationMethod>by_billing_cycle</calculationMethod>
+                                            <measurementInterval>
+                                                <calculationMode>PERIOD</calculationMode>
+                                                <calcIntervalKind>MONTH</calcIntervalKind>
+                                                <calcIntervalPer>1</calcIntervalPer>
+                                            </measurementInterval>
+                                        </measurementDefinition>
+                                        <chargesComponent>delivery</chargesComponent>
+                                    </minimumCharge>
                                     <meteredServiceCharge>
                                         <servicePeriod>
-                                            <startDate>2024-01-01</startDate>
+                                            <startDate>2023-11-01</startDate>
+                                            <endDate>2024-04-30</endDate>
                                         </servicePeriod>
-                                        <serviceTierNr>1</serviceTierNr>
-                                        <chargeName>Blocked non-tou metered charge</chargeName>
-                                        <chargeValue>0.12</chargeValue>
+                                        <chargeName>Energy Charge</chargeName>
+                                        <chargeValue>0.06139</chargeValue>
                                         <measurementDefinition>
                                             <calculationMethod>by_metered_quantity</calculationMethod>
                                             <measurementSource>energy</measurementSource>
-                                        </measurementDefinition>
-                                        <chargesComponent>delivery</chargesComponent>
-                                    </meteredServiceCharge>
-                                    <meteredServiceCharge>
-                                        <servicePeriod>
-                                            <startDate>2024-01-01</startDate>
-                                        </servicePeriod>
-                                        <ratePeriodNr>1</ratePeriodNr>
-                                        <peakType>peak</peakType>
-                                        <chargeName>Peak TOU Charge</chargeName>
-                                        <chargeValue>0.12</chargeValue>
-                                        <measurementDefinition>
-                                            <calculationMethod>by_metered_quantity</calculationMethod>
-                                        </measurementDefinition>
-                                        <chargesComponent>delivery</chargesComponent>
-                                    </meteredServiceCharge>
-                                    <meteredServiceCharge>
-                                        <servicePeriod>
-                                            <startDate>2024-01-01</startDate>
-                                        </servicePeriod>
-                                        <ratePeriodNr>2</ratePeriodNr>
-                                        <peakType>base</peakType>
-                                        <chargeName>Base TOU Charge</chargeName>
-                                        <chargeValue>0.11</chargeValue>
-                                        <measurementDefinition>
-                                            <calculationMethod>by_metered_quantity</calculationMethod>
-                                        </measurementDefinition>
-                                        <chargesComponent>delivery</chargesComponent>
-                                    </meteredServiceCharge>
-                                    <meteredServiceCharge>
-                                        <servicePeriod>
-                                            <startDate>2024-01-01</startDate>
-                                        </servicePeriod>
-                                        <ratePeriodNr>3</ratePeriodNr>
-                                        <peakType>peak</peakType>
-                                        <chargeName>Off Peak TOU Charge</chargeName>
-                                        <chargeValue>0.12</chargeValue>
-                                        <measurementDefinition>
-                                            <calculationMethod>by_metered_quantity</calculationMethod>
+                                            <unitOfMeasure>Wh</unitOfMeasure>
+                                            <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
                                         </measurementDefinition>
                                         <chargesComponent>delivery</chargesComponent>
                                     </meteredServiceCharge>

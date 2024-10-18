@@ -3,7 +3,7 @@
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:noNamespaceSchemaLocation="file:/Users/boek/git/IEDR/rate-plan-schema/tariff_books.xsd">
     <tariffBook>
-        <sourceDocKind>TariffBookLeafRange</sourceDocKind>
+        <sourceDocKind>TariffBook</sourceDocKind>
         <sourceURL>http://www.oxygenxml.com/</sourceURL>
         <datePublished>2006-05-04</datePublished>
         <effectivePeriod>
