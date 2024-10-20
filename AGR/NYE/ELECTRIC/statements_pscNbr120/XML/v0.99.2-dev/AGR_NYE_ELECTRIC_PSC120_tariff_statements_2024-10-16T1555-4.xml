@@ -182,7 +182,7 @@
             <scopeOfApplicability>
                 <include>
                     <serviceClasses>
-                        <serviceClass>1</serviceClass>
+                        <serviceClass>9</serviceClass>
                     </serviceClasses>
                 </include>
             </scopeOfApplicability>
@@ -195,7 +195,7 @@
                     applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
                     Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
                     Transition Surcharge.</description>
-                <chargeValue>0.000528</chargeValue>
+                <chargeValue>0.000164</chargeValue>
                 <measurementDefinition>
                     <calculationMethod>by_metered_quantity</calculationMethod>
                     <measurementSource>energy</measurementSource>
