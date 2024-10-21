@@ -2,606 +2,36 @@
 <tariffStatements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Flux-Tailor/rate-plan-schema/refs/tags/v0.99.2-dev/tariff_statements.xsd">
     <tariffStatement>
         <sourceDocKind>Statement</sourceDocKind>
-        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EZ%5B%2F%20%3C%5BK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EZ%5B%2F%20%2C%5BK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
         <datePublished>2024-07-25</datePublished>
         <effectivePeriod>
             <startDate>2024-08-01</startDate>
         </effectivePeriod>
-        <iedrOrgAbbreviation>NYE</iedrOrgAbbreviation>
-        <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
-        <typeCode>ARP</typeCode>
-        <docNumber>07</docNumber>
-        <dpsCaseNumber>14-M-0565</dpsCaseNumber>
-        <dpsCaseNumber>20-M-0266</dpsCaseNumber>
-        <generalRuleRefs>General Information Section 51, Arrears
-            Relief Program (“ARP”) Surcharge
-        </generalRuleRefs>
+        <typeCode>AMP</typeCode>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2826689</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
                 <include>
                     <serviceClasses>
-                        <serviceClass>1</serviceClass>
+                        <serviceClass>All</serviceClass>
                     </serviceClasses>
                 </include>
-            </scopeOfApplicability>
-            <statementCharge>
-                <servicePeriod>
-                    <startDate>2024-08-01</startDate>
-                </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
-                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
-                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
-                    Transition Surcharge.</description>
-                <chargeValue>0.000528</chargeValue>
-                <measurementDefinition>
-                    <calculationMethod>by_metered_quantity</calculationMethod>
-                    <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
-                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
-                    <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
-                        <calcIntervalPer>1</calcIntervalPer>
-                    </measurementInterval>
-                </measurementDefinition>
-                <chargesComponent>delivery</chargesComponent>
-            </statementCharge>
-        </statementCharges>
-        <statementCharges>
-            <scopeOfApplicability>
-                <include>
+                <exclude>
                     <serviceClasses>
-                        <serviceClass>8</serviceClass>
+                        <serviceClass>11</serviceClass>
                     </serviceClasses>
-                </include>
+                </exclude>
             </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
-                    <startDate>2024-08-01</startDate>
+                    <startDate>2024-06-01</startDate>
                 </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
-                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
-                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
-                    Transition Surcharge.</description>
-                <chargeValue>0.000540</chargeValue>
-                <measurementDefinition>
-                    <calculationMethod>by_metered_quantity</calculationMethod>
-                    <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
-                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
-                    <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
-                        <calcIntervalPer>1</calcIntervalPer>
-                    </measurementInterval>
-                </measurementDefinition>
-                <chargesComponent>delivery</chargesComponent>
-            </statementCharge>
-        </statementCharges>
-        <statementCharges>
-            <scopeOfApplicability>
-                <include>
-                    <serviceClasses>
-                        <serviceClass>12</serviceClass>
-                    </serviceClasses>
-                </include>
-            </scopeOfApplicability>
-            <statementCharge>
-                <servicePeriod>
-                    <startDate>2024-08-01</startDate>
-                </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
-                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
-                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
-                    Transition Surcharge.</description>
-                <chargeValue>0.000428</chargeValue>
-                <measurementDefinition>
-                    <calculationMethod>by_metered_quantity</calculationMethod>
-                    <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
-                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
-                    <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
-                        <calcIntervalPer>1</calcIntervalPer>
-                    </measurementInterval>
-                </measurementDefinition>
-                <chargesComponent>delivery</chargesComponent>
-            </statementCharge>
-        </statementCharges>
-        <statementCharges>
-            <scopeOfApplicability>
-                <include>
-                    <serviceClasses>
-                        <serviceClass>5</serviceClass>
-                    </serviceClasses>
-                </include>
-            </scopeOfApplicability>
-            <statementCharge>
-                <servicePeriod>
-                    <startDate>2024-08-01</startDate>
-                </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
-                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
-                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
-                    Transition Surcharge.</description>
-                <chargeValue>0.000378</chargeValue>
-                <measurementDefinition>
-                    <calculationMethod>by_metered_quantity</calculationMethod>
-                    <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
-                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
-                    <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
-                        <calcIntervalPer>1</calcIntervalPer>
-                    </measurementInterval>
-                </measurementDefinition>
-                <chargesComponent>delivery</chargesComponent>
-            </statementCharge>
-        </statementCharges>
-        <statementCharges>
-            <scopeOfApplicability>
-                <include>
-                    <serviceClasses>
-                        <serviceClass>6</serviceClass>
-                    </serviceClasses>
-                </include>
-            </scopeOfApplicability>
-            <statementCharge>
-                <servicePeriod>
-                    <startDate>2024-08-01</startDate>
-                </servicePeriod>
-                <chargeName>Arrears Relief Program Phase 1
-                    Charge per kWh</chargeName>
-                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
-                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
-                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
-                    Transition Surcharge.</description>
-                <chargeValue>0.000225</chargeValue>
-                <measurementDefinition>
-                    <calculationMethod>by_metered_quantity</calculationMethod>
-                    <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
-                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
-                    <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
-                        <calcIntervalPer>1</calcIntervalPer>
-                    </measurementInterval>
-                </measurementDefinition>
-                <chargesComponent>delivery</chargesComponent>
-            </statementCharge>
-        </statementCharges>
-        <statementCharges>
-            <scopeOfApplicability>
-                <include>
-                    <serviceClasses>
-                        <serviceClass>9</serviceClass>
-                    </serviceClasses>
-                </include>
-            </scopeOfApplicability>
-            <statementCharge>
-                <servicePeriod>
-                    <startDate>2024-08-01</startDate>
-                </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
-                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
-                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
-                    Transition Surcharge.</description>
-                <chargeValue>0.000164</chargeValue>
-                <measurementDefinition>
-                    <calculationMethod>by_metered_quantity</calculationMethod>
-                    <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
-                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
-                    <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
-                        <calcIntervalPer>1</calcIntervalPer>
-                    </measurementInterval>
-                </measurementDefinition>
-                <chargesComponent>delivery</chargesComponent>
-            </statementCharge>
-        </statementCharges>
-        <statementCharges>
-            <scopeOfApplicability>
-                <include>
-                    <serviceClasses>
-                        <serviceClass>1</serviceClass>
-                    </serviceClasses>
-                </include>
-            </scopeOfApplicability>
-            <statementCharge>
-                <servicePeriod>
-                    <startDate>2024-08-01</startDate>
-                </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
-                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
-                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
-                    Transition Surcharge.</description>
-                <chargeValue>0.000528</chargeValue>
-                <measurementDefinition>
-                    <calculationMethod>by_metered_quantity</calculationMethod>
-                    <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
-                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
-                    <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
-                        <calcIntervalPer>1</calcIntervalPer>
-                    </measurementInterval>
-                </measurementDefinition>
-                <chargesComponent>delivery</chargesComponent>
-            </statementCharge>
-        </statementCharges>
-        <statementCharges>
-            <scopeOfApplicability>
-                <include>
-                    <serviceClasses>
-                        <serviceClass>1</serviceClass>
-                    </serviceClasses>
-                </include>
-            </scopeOfApplicability>
-            <statementCharge>
-                <servicePeriod>
-                    <startDate>2024-08-01</startDate>
-                </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
-                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
-                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
-                    Transition Surcharge.</description>
-                <chargeValue>0.000528</chargeValue>
-                <measurementDefinition>
-                    <calculationMethod>by_metered_quantity</calculationMethod>
-                    <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
-                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
-                    <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
-                        <calcIntervalPer>1</calcIntervalPer>
-                    </measurementInterval>
-                </measurementDefinition>
-                <chargesComponent>delivery</chargesComponent>
-            </statementCharge>
-        </statementCharges>
-        <statementCharges>
-            <scopeOfApplicability>
-                <include>
-                    <serviceClasses>
-                        <serviceClass>1</serviceClass>
-                    </serviceClasses>
-                </include>
-            </scopeOfApplicability>
-            <statementCharge>
-                <servicePeriod>
-                    <startDate>2024-08-01</startDate>
-                </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
-                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
-                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
-                    Transition Surcharge.</description>
-                <chargeValue>0.000528</chargeValue>
-                <measurementDefinition>
-                    <calculationMethod>by_metered_quantity</calculationMethod>
-                    <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
-                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
-                    <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
-                        <calcIntervalPer>1</calcIntervalPer>
-                    </measurementInterval>
-                </measurementDefinition>
-                <chargesComponent>delivery</chargesComponent>
-            </statementCharge>
-        </statementCharges>
-        <statementCharges>
-            <scopeOfApplicability>
-                <include>
-                    <serviceClasses>
-                        <serviceClass>1</serviceClass>
-                    </serviceClasses>
-                </include>
-            </scopeOfApplicability>
-            <statementCharge>
-                <servicePeriod>
-                    <startDate>2024-08-01</startDate>
-                </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>Arrears Relief Program</description>
-                <chargeValue>0.000528</chargeValue>
-                <measurementDefinition>
-                    <calculationMethod>by_metered_quantity</calculationMethod>
-                    <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
-                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
-                    <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
-                        <calcIntervalPer>1</calcIntervalPer>
-                    </measurementInterval>
-                </measurementDefinition>
-                <chargesComponent>delivery</chargesComponent>
-            </statementCharge>
-        </statementCharges>
-        <statementCharges>
-            <scopeOfApplicability>
-                <include>
-                    <serviceClasses>
-                        <serviceClass>1</serviceClass>
-                    </serviceClasses>
-                </include>
-            </scopeOfApplicability>
-            <statementCharge>
-                <servicePeriod>
-                    <startDate>2024-08-01</startDate>
-                </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>Arrears Relief Program</description>
-                <chargeValue>0.000528</chargeValue>
-                <measurementDefinition>
-                    <calculationMethod>by_metered_quantity</calculationMethod>
-                    <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
-                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
-                    <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
-                        <calcIntervalPer>1</calcIntervalPer>
-                    </measurementInterval>
-                </measurementDefinition>
-                <chargesComponent>delivery</chargesComponent>
-            </statementCharge>
-        </statementCharges><statementCharges>
-            <scopeOfApplicability>
-                <include>
-                    <serviceClasses>
-                        <serviceClass>1</serviceClass>
-                    </serviceClasses>
-                </include>
-            </scopeOfApplicability>
-            <statementCharge>
-                <servicePeriod>
-                    <startDate>2024-08-01</startDate>
-                </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>Arrears Relief Program</description>
-                <chargeValue>0.000528</chargeValue>
-                <measurementDefinition>
-                    <calculationMethod>by_metered_quantity</calculationMethod>
-                    <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
-                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
-                    <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
-                        <calcIntervalPer>1</calcIntervalPer>
-                    </measurementInterval>
-                </measurementDefinition>
-                <chargesComponent>delivery</chargesComponent>
-            </statementCharge>
-        </statementCharges><statementCharges>
-            <scopeOfApplicability>
-                <include>
-                    <serviceClasses>
-                        <serviceClass>1</serviceClass>
-                    </serviceClasses>
-                </include>
-            </scopeOfApplicability>
-            <statementCharge>
-                <servicePeriod>
-                    <startDate>2024-08-01</startDate>
-                </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>Arrears Relief Program</description>
-                <chargeValue>0.000528</chargeValue>
-                <measurementDefinition>
-                    <calculationMethod>by_metered_quantity</calculationMethod>
-                    <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
-                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
-                    <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
-                        <calcIntervalPer>1</calcIntervalPer>
-                    </measurementInterval>
-                </measurementDefinition>
-                <chargesComponent>delivery</chargesComponent>
-            </statementCharge>
-        </statementCharges><statementCharges>
-            <scopeOfApplicability>
-                <include>
-                    <serviceClasses>
-                        <serviceClass>1</serviceClass>
-                    </serviceClasses>
-                </include>
-            </scopeOfApplicability>
-            <statementCharge>
-                <servicePeriod>
-                    <startDate>2024-08-01</startDate>
-                </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>Arrears Relief Program</description>
-                <chargeValue>0.000528</chargeValue>
-                <measurementDefinition>
-                    <calculationMethod>by_metered_quantity</calculationMethod>
-                    <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
-                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
-                    <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
-                        <calcIntervalPer>1</calcIntervalPer>
-                    </measurementInterval>
-                </measurementDefinition>
-                <chargesComponent>delivery</chargesComponent>
-            </statementCharge>
-        </statementCharges><statementCharges>
-            <scopeOfApplicability>
-                <include>
-                    <serviceClasses>
-                        <serviceClass>1</serviceClass>
-                    </serviceClasses>
-                </include>
-            </scopeOfApplicability>
-            <statementCharge>
-                <servicePeriod>
-                    <startDate>2024-08-01</startDate>
-                </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>Arrears Relief Program</description>
-                <chargeValue>0.000528</chargeValue>
-                <measurementDefinition>
-                    <calculationMethod>by_metered_quantity</calculationMethod>
-                    <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
-                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
-                    <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
-                        <calcIntervalPer>1</calcIntervalPer>
-                    </measurementInterval>
-                </measurementDefinition>
-                <chargesComponent>delivery</chargesComponent>
-            </statementCharge>
-        </statementCharges><statementCharges>
-            <scopeOfApplicability>
-                <include>
-                    <serviceClasses>
-                        <serviceClass>1</serviceClass>
-                    </serviceClasses>
-                </include>
-            </scopeOfApplicability>
-            <statementCharge>
-                <servicePeriod>
-                    <startDate>2024-08-01</startDate>
-                </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>Arrears Relief Program</description>
-                <chargeValue>0.000528</chargeValue>
-                <measurementDefinition>
-                    <calculationMethod>by_metered_quantity</calculationMethod>
-                    <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
-                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
-                    <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
-                        <calcIntervalPer>1</calcIntervalPer>
-                    </measurementInterval>
-                </measurementDefinition>
-                <chargesComponent>delivery</chargesComponent>
-            </statementCharge>
-        </statementCharges><statementCharges>
-            <scopeOfApplicability>
-                <include>
-                    <serviceClasses>
-                        <serviceClass>1</serviceClass>
-                    </serviceClasses>
-                </include>
-            </scopeOfApplicability>
-            <statementCharge>
-                <servicePeriod>
-                    <startDate>2024-08-01</startDate>
-                </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>Arrears Relief Program</description>
-                <chargeValue>0.000528</chargeValue>
-                <measurementDefinition>
-                    <calculationMethod>by_metered_quantity</calculationMethod>
-                    <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
-                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
-                    <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
-                        <calcIntervalPer>1</calcIntervalPer>
-                    </measurementInterval>
-                </measurementDefinition>
-                <chargesComponent>delivery</chargesComponent>
-            </statementCharge>
-        </statementCharges><statementCharges>
-            <scopeOfApplicability>
-                <include>
-                    <serviceClasses>
-                        <serviceClass>1</serviceClass>
-                    </serviceClasses>
-                </include>
-            </scopeOfApplicability>
-            <statementCharge>
-                <servicePeriod>
-                    <startDate>2024-08-01</startDate>
-                </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>Arrears Relief Program</description>
-                <chargeValue>0.000528</chargeValue>
-                <measurementDefinition>
-                    <calculationMethod>by_metered_quantity</calculationMethod>
-                    <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
-                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
-                    <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
-                        <calcIntervalPer>1</calcIntervalPer>
-                    </measurementInterval>
-                </measurementDefinition>
-                <chargesComponent>delivery</chargesComponent>
-            </statementCharge>
-        </statementCharges><statementCharges>
-            <scopeOfApplicability>
-                <include>
-                    <serviceClasses>
-                        <serviceClass>1</serviceClass>
-                    </serviceClasses>
-                </include>
-            </scopeOfApplicability>
-            <statementCharge>
-                <servicePeriod>
-                    <startDate>2024-08-01</startDate>
-                </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>Arrears Relief Program</description>
-                <chargeValue>0.000528</chargeValue>
-                <measurementDefinition>
-                    <calculationMethod>by_metered_quantity</calculationMethod>
-                    <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
-                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
-                    <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
-                        <calcIntervalPer>1</calcIntervalPer>
-                    </measurementInterval>
-                </measurementDefinition>
-                <chargesComponent>delivery</chargesComponent>
-            </statementCharge>
-        </statementCharges><statementCharges>
-            <scopeOfApplicability>
-                <include>
-                    <serviceClasses>
-                        <serviceClass>1</serviceClass>
-                    </serviceClasses>
-                </include>
-            </scopeOfApplicability>
-            <statementCharge>
-                <servicePeriod>
-                    <startDate>2024-08-01</startDate>
-                </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>Arrears Relief Program</description>
-                <chargeValue>0.000528</chargeValue>
+                <chargeName>Arrears Mgt. Prog. Surcharge</chargeName>
+                <description>Arrears Mgt. Prog. Surcharge</description>
+                <chargeValue>0</chargeValue>
                 <measurementDefinition>
                     <calculationMethod>by_metered_quantity</calculationMethod>
                     <measurementSource>energy</measurementSource>
@@ -619,16 +49,110 @@
     </tariffStatement>
     <tariffStatement>
         <sourceDocKind>Statement</sourceDocKind>
-        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5E%3AK%2E%22%5C%23K4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
-        <datePublished>2023-12-14</datePublished>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBS%2A%5E%2A%3B%2A%21LKK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2012-05-21</datePublished>
+        <effectivePeriod>
+            <startDate>2012-05-31</startDate>
+        </effectivePeriod>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
+        <serviceType>Electric</serviceType>
+        <typeCode>CAC</typeCode>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2767853</generalRuleRefs>
+        <statementCharges>
+            <scopeOfApplicability>
+                <include>
+                    <serviceClasses>
+                        <serviceClass>All</serviceClass>
+                    </serviceClasses>
+                </include>
+                <exclude>
+                    <serviceClasses>
+                        <serviceClass>11</serviceClass>
+                    </serviceClasses>
+                </exclude>
+            </scopeOfApplicability>
+            <statementCharge>
+                <servicePeriod>
+                    <startDate>2024-06-01</startDate>
+                </servicePeriod>
+                <chargeName>Commodity Adjustment Charge</chargeName>
+                <description>Commodity Adjustment Charge</description>
+                <chargeValue>0</chargeValue>
+                <measurementDefinition>
+                    <calculationMethod>by_metered_quantity</calculationMethod>
+                    <measurementSource>energy</measurementSource>
+                    <unitOfMeasure>Wh</unitOfMeasure>
+                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
+                    <measurementInterval>
+                        <calculationMode>PERIOD</calculationMode>
+                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calcIntervalPer>1</calcIntervalPer>
+                    </measurementInterval>
+                </measurementDefinition>
+                <chargesComponent>delivery</chargesComponent>
+            </statementCharge>
+        </statementCharges>
+    </tariffStatement>
+    <tariffStatement>
+        <sourceDocKind>Statement</sourceDocKind>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBS%2B%5F%3AO%28%20LCK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2009-07-20</datePublished>
+        <effectivePeriod>
+            <startDate>2009-07-30</startDate>
+        </effectivePeriod>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
+        <serviceType>Electric</serviceType>
+        <typeCode>CACS</typeCode>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2756455</generalRuleRefs>
+        <statementCharges>
+            <scopeOfApplicability>
+                <include>
+                    <serviceClasses>
+                        <serviceClass>All</serviceClass>
+                    </serviceClasses>
+                </include>
+                <exclude>
+                    <serviceClasses>
+                        <serviceClass>11</serviceClass>
+                    </serviceClasses>
+                </exclude>
+            </scopeOfApplicability>
+            <statementCharge>
+                <servicePeriod>
+                    <startDate>2024-06-01</startDate>
+                </servicePeriod>
+                <chargeName>Consumption Adjustment Clause</chargeName>
+                <description>Consumption Adjustment Clause</description>
+                <chargeValue>0</chargeValue>
+                <measurementDefinition>
+                    <calculationMethod>by_metered_quantity</calculationMethod>
+                    <measurementSource>energy</measurementSource>
+                    <unitOfMeasure>Wh</unitOfMeasure>
+                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
+                    <measurementInterval>
+                        <calculationMode>PERIOD</calculationMode>
+                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calcIntervalPer>1</calcIntervalPer>
+                    </measurementInterval>
+                </measurementDefinition>
+                <chargesComponent>delivery</chargesComponent>
+            </statementCharge>
+        </statementCharges>
+    </tariffStatement>
+    <tariffStatement>
+        <sourceDocKind>Statement</sourceDocKind>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5E%3AK%2D%20%2CCK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2023-12-15</datePublished>
         <effectivePeriod>
             <startDate>2024-01-01</startDate>
         </effectivePeriod>
-        <iedrOrgAbbreviation>NYE</iedrOrgAbbreviation>
-        <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>CBC</typeCode>
-        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2823909</generalRuleRefs>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2823917</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
                 <include>
@@ -666,17 +190,17 @@
     </tariffStatement>
     <tariffStatement>
         <sourceDocKind>Statement</sourceDocKind>
-        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5F%2AO%27%20LCK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
-        <datePublished>2022-01-13</datePublished>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5F%2AO%27%21LKK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2022-01-14</datePublished>
         <effectivePeriod>
             <startDate>2022-01-17</startDate>
         </effectivePeriod>
-        <iedrOrgAbbreviation>NYE</iedrOrgAbbreviation>
-        <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>CCA</typeCode>
         <DPSCaseNumber>20-M-0082</DPSCaseNumber>
-        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2814963</generalRuleRefs>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2814973</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
                 <include>
@@ -714,16 +238,16 @@
     </tariffStatement>
     <tariffStatement>
         <sourceDocKind>Statement</sourceDocKind>
-        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EJS%29%20L%5BK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
-        <datePublished>2024-03-15</datePublished>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EZK%2E%21%5CKK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2024-09-26</datePublished>
         <effectivePeriod>
-            <startDate>2024-04-01</startDate>
+            <startDate>2024-10-01</startDate>
         </effectivePeriod>
-        <iedrOrgAbbreviation>NYE</iedrOrgAbbreviation>
-        <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
-        <typeCode>CES</typeCode>
-        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825157</generalRuleRefs>
+        <typeCode>CESD</typeCode>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2827563</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
                 <include>
@@ -741,8 +265,8 @@
                 <servicePeriod>
                     <startDate>2024-06-01</startDate>
                 </servicePeriod>
-                <chargeName>Clean Energy Standard</chargeName>
-                <description>Clean Energy Standard</description>
+                <chargeName>Clean Energy Standard Delivery</chargeName>
+                <description>Clean Energy Standard Delivery</description>
                 <chargeValue>0</chargeValue>
                 <measurementDefinition>
                     <calculationMethod>by_metered_quantity</calculationMethod>
@@ -761,16 +285,16 @@
     </tariffStatement>
     <tariffStatement>
         <sourceDocKind>Statement</sourceDocKind>
-        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EJS%2E%20%3CSK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
-        <datePublished>2024-02-28</datePublished>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EJS%27%21%2C%23K4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2024-03-22</datePublished>
         <effectivePeriod>
-            <startDate>2024-05-01</startDate>
+            <startDate>2024-03-28</startDate>
         </effectivePeriod>
-        <iedrOrgAbbreviation>NYE</iedrOrgAbbreviation>
-        <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
-        <typeCode>DISC</typeCode>
-        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2824993</generalRuleRefs>
+        <typeCode>CESS</typeCode>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825259</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
                 <include>
@@ -788,8 +312,8 @@
                 <servicePeriod>
                     <startDate>2024-06-01</startDate>
                 </servicePeriod>
-                <chargeName>A/R Discount Rate</chargeName>
-                <description>A/R Discount Rate</description>
+                <chargeName>Clean Energy Stan. Supply Surc</chargeName>
+                <description>Clean Energy Stan. Supply Surc</description>
                 <chargeValue>0</chargeValue>
                 <measurementDefinition>
                     <calculationMethod>by_metered_quantity</calculationMethod>
@@ -802,69 +326,22 @@
                         <calcIntervalPer>1</calcIntervalPer>
                     </measurementInterval>
                 </measurementDefinition>
-                <chargesComponent>delivery</chargesComponent>
+                <chargesComponent>supply</chargesComponent>
             </statementCharge>
         </statementCharges>
     </tariffStatement>
     <tariffStatement>
         <sourceDocKind>Statement</sourceDocKind>
-        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%20%5E%2AK%28%20%3C%5BK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
-        <datePublished>2020-03-12</datePublished>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5E%3AO%2B%20%3CKK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2023-12-21</datePublished>
         <effectivePeriod>
-            <startDate>2020-05-01</startDate>
+            <startDate>2024-01-01</startDate>
         </effectivePeriod>
-        <iedrOrgAbbreviation>NYE</iedrOrgAbbreviation>
-        <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
-        <serviceType>Electric</serviceType>
-        <typeCode>DLC</typeCode>
-        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2806689</generalRuleRefs>
-        <statementCharges>
-            <scopeOfApplicability>
-                <include>
-                    <serviceClasses>
-                        <serviceClass>All</serviceClass>
-                    </serviceClasses>
-                </include>
-                <exclude>
-                    <serviceClasses>
-                        <serviceClass>11</serviceClass>
-                    </serviceClasses>
-                </exclude>
-            </scopeOfApplicability>
-            <statementCharge>
-                <servicePeriod>
-                    <startDate>2024-06-01</startDate>
-                </servicePeriod>
-                <chargeName>Direct Load Control</chargeName>
-                <description>Direct Load Control</description>
-                <chargeValue>0</chargeValue>
-                <measurementDefinition>
-                    <calculationMethod>by_metered_quantity</calculationMethod>
-                    <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
-                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
-                    <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
-                        <calcIntervalPer>1</calcIntervalPer>
-                    </measurementInterval>
-                </measurementDefinition>
-                <chargesComponent>delivery</chargesComponent>
-            </statementCharge>
-        </statementCharges>
-    </tariffStatement>
-    <tariffStatement>
-        <sourceDocKind>Statement</sourceDocKind>
-        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EJW%28%20L%5BK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
-        <datePublished>2024-04-22</datePublished>
-        <effectivePeriod>
-            <startDate>2024-05-01</startDate>
-        </effectivePeriod>
-        <iedrOrgAbbreviation>NYE</iedrOrgAbbreviation>
-        <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>DLM</typeCode>
-        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825541</generalRuleRefs>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2824031</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
                 <include>
@@ -902,16 +379,111 @@
     </tariffStatement>
     <tariffStatement>
         <sourceDocKind>Statement</sourceDocKind>
-        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5E%2AK%2A%20%5C%5BK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
-        <datePublished>2023-09-28</datePublished>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%20%5F%2A%5F%28%20%3CKK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2019-02-27</datePublished>
         <effectivePeriod>
-            <startDate>2023-11-01</startDate>
+            <startDate>2019-05-01</startDate>
         </effectivePeriod>
-        <iedrOrgAbbreviation>NYE</iedrOrgAbbreviation>
-        <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
+        <serviceType>Electric</serviceType>
+        <typeCode>DRIS</typeCode>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2801563</generalRuleRefs>
+        <statementCharges>
+            <scopeOfApplicability>
+                <include>
+                    <serviceClasses>
+                        <serviceClass>All</serviceClass>
+                    </serviceClasses>
+                </include>
+                <exclude>
+                    <serviceClasses>
+                        <serviceClass>11</serviceClass>
+                    </serviceClasses>
+                </exclude>
+            </scopeOfApplicability>
+            <statementCharge>
+                <servicePeriod>
+                    <startDate>2024-06-01</startDate>
+                </servicePeriod>
+                <chargeName>DEMAND RESPONSE INCENTIVE</chargeName>
+                <description>DEMAND RESPONSE INCENTIVE</description>
+                <chargeValue>0</chargeValue>
+                <measurementDefinition>
+                    <calculationMethod>by_metered_quantity</calculationMethod>
+                    <measurementSource>energy</measurementSource>
+                    <unitOfMeasure>Wh</unitOfMeasure>
+                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
+                    <measurementInterval>
+                        <calculationMode>PERIOD</calculationMode>
+                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calcIntervalPer>1</calcIntervalPer>
+                    </measurementInterval>
+                </measurementDefinition>
+                <chargesComponent>delivery</chargesComponent>
+            </statementCharge>
+        </statementCharges>
+    </tariffStatement>
+    <tariffStatement>
+        <sourceDocKind>Statement</sourceDocKind>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5E%2A%3B%2C%20LKK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2023-11-01</datePublished>
+        <effectivePeriod>
+            <startDate>2023-12-01</startDate>
+        </effectivePeriod>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
+        <serviceType>Electric</serviceType>
+        <typeCode>EAC</typeCode>
+        <DPSCaseNumber>14-M-0565</DPSCaseNumber>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2823311</generalRuleRefs>
+        <statementCharges>
+            <scopeOfApplicability>
+                <include>
+                    <serviceClasses>
+                        <serviceClass>All</serviceClass>
+                    </serviceClasses>
+                </include>
+                <exclude>
+                    <serviceClasses>
+                        <serviceClass>11</serviceClass>
+                    </serviceClasses>
+                </exclude>
+            </scopeOfApplicability>
+            <statementCharge>
+                <servicePeriod>
+                    <startDate>2024-06-01</startDate>
+                </servicePeriod>
+                <chargeName>Energy Affordability Credit</chargeName>
+                <description>Energy Affordability Credit</description>
+                <chargeValue>0</chargeValue>
+                <measurementDefinition>
+                    <calculationMethod>by_metered_quantity</calculationMethod>
+                    <measurementSource>energy</measurementSource>
+                    <unitOfMeasure>Wh</unitOfMeasure>
+                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
+                    <measurementInterval>
+                        <calculationMode>PERIOD</calculationMode>
+                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calcIntervalPer>1</calcIntervalPer>
+                    </measurementInterval>
+                </measurementDefinition>
+                <chargesComponent>delivery</chargesComponent>
+            </statementCharge>
+        </statementCharges>
+    </tariffStatement>
+    <tariffStatement>
+        <sourceDocKind>Statement</sourceDocKind>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EJW%2B%21LCK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2024-04-15</datePublished>
+        <effectivePeriod>
+            <startDate>2024-05-01</startDate>
+        </effectivePeriod>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>EAM</typeCode>
-        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2822897</generalRuleRefs>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825443</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
                 <include>
@@ -949,17 +521,64 @@
     </tariffStatement>
     <tariffStatement>
         <sourceDocKind>Statement</sourceDocKind>
-        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5F%2AK%27%22LKK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
-        <datePublished>2021-12-29</datePublished>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5E%3A%5F%29%20LKK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2023-11-15</datePublished>
         <effectivePeriod>
-            <startDate>2022-01-01</startDate>
+            <startDate>2023-12-01</startDate>
         </effectivePeriod>
-        <iedrOrgAbbreviation>NYE</iedrOrgAbbreviation>
-        <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
+        <serviceType>Electric</serviceType>
+        <typeCode>ESFA</typeCode>
+        <DPSCaseNumber>19-E-0735</DPSCaseNumber>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2823499</generalRuleRefs>
+        <statementCharges>
+            <scopeOfApplicability>
+                <include>
+                    <serviceClasses>
+                        <serviceClass>All</serviceClass>
+                    </serviceClasses>
+                </include>
+                <exclude>
+                    <serviceClasses>
+                        <serviceClass>11</serviceClass>
+                    </serviceClasses>
+                </exclude>
+            </scopeOfApplicability>
+            <statementCharge>
+                <servicePeriod>
+                    <startDate>2024-06-01</startDate>
+                </servicePeriod>
+                <chargeName>Expanded Solar For All</chargeName>
+                <description>Expanded Solar For All</description>
+                <chargeValue>0</chargeValue>
+                <measurementDefinition>
+                    <calculationMethod>by_metered_quantity</calculationMethod>
+                    <measurementSource>energy</measurementSource>
+                    <unitOfMeasure>Wh</unitOfMeasure>
+                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
+                    <measurementInterval>
+                        <calculationMode>PERIOD</calculationMode>
+                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calcIntervalPer>1</calcIntervalPer>
+                    </measurementInterval>
+                </measurementDefinition>
+                <chargesComponent>delivery</chargesComponent>
+            </statementCharge>
+        </statementCharges>
+    </tariffStatement>
+    <tariffStatement>
+        <sourceDocKind>Statement</sourceDocKind>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5E%3AO%28%21LSK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2023-12-21</datePublished>
+        <effectivePeriod>
+            <startDate>2023-12-29</startDate>
+        </effectivePeriod>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>ESS</typeCode>
-        <DPSCaseNumber>18-E-0130</DPSCaseNumber>
-        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2814801</generalRuleRefs>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2824049</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
                 <include>
@@ -997,16 +616,63 @@
     </tariffStatement>
     <tariffStatement>
         <sourceDocKind>Statement</sourceDocKind>
-        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5E%3AG%2F%20%5CSK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
-        <datePublished>2024-01-11</datePublished>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EJ%3F%2A%20LKK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2024-07-01</datePublished>
         <effectivePeriod>
-            <startDate>2024-02-01</startDate>
+            <startDate>2024-08-01</startDate>
         </effectivePeriod>
-        <iedrOrgAbbreviation>NYE</iedrOrgAbbreviation>
-        <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
+        <serviceType>Electric</serviceType>
+        <typeCode>EVCS</typeCode>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2826503</generalRuleRefs>
+        <statementCharges>
+            <scopeOfApplicability>
+                <include>
+                    <serviceClasses>
+                        <serviceClass>All</serviceClass>
+                    </serviceClasses>
+                </include>
+                <exclude>
+                    <serviceClasses>
+                        <serviceClass>11</serviceClass>
+                    </serviceClasses>
+                </exclude>
+            </scopeOfApplicability>
+            <statementCharge>
+                <servicePeriod>
+                    <startDate>2024-06-01</startDate>
+                </servicePeriod>
+                <chargeName>Rsdntl EV Charge Smart Plan</chargeName>
+                <description>Rsdntl EV Charge Smart Plan</description>
+                <chargeValue>0</chargeValue>
+                <measurementDefinition>
+                    <calculationMethod>by_metered_quantity</calculationMethod>
+                    <measurementSource>energy</measurementSource>
+                    <unitOfMeasure>Wh</unitOfMeasure>
+                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
+                    <measurementInterval>
+                        <calculationMode>PERIOD</calculationMode>
+                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calcIntervalPer>1</calcIntervalPer>
+                    </measurementInterval>
+                </measurementDefinition>
+                <chargesComponent>delivery</chargesComponent>
+            </statementCharge>
+        </statementCharges>
+    </tariffStatement>
+    <tariffStatement>
+        <sourceDocKind>Statement</sourceDocKind>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5E%3AG%2F%21%5CSK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2024-01-12</datePublished>
+        <effectivePeriod>
+            <startDate>2024-01-30</startDate>
+        </effectivePeriod>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>EVS</typeCode>
-        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2824339</generalRuleRefs>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2824347</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
                 <include>
@@ -1044,16 +710,205 @@
     </tariffStatement>
     <tariffStatement>
         <sourceDocKind>Statement</sourceDocKind>
-        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EZK%2F%21%3C%5BK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
-        <datePublished>2024-09-25</datePublished>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EZK%2F%21%2CSK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2024-09-24</datePublished>
         <effectivePeriod>
-            <startDate>2024-10-01</startDate>
+            <startDate>2024-09-27</startDate>
         </effectivePeriod>
-        <iedrOrgAbbreviation>NYE</iedrOrgAbbreviation>
-        <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
+        <serviceType>Electric</serviceType>
+        <typeCode>FBP</typeCode>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2827529</generalRuleRefs>
+        <statementCharges>
+            <scopeOfApplicability>
+                <include>
+                    <serviceClasses>
+                        <serviceClass>All</serviceClass>
+                    </serviceClasses>
+                </include>
+                <exclude>
+                    <serviceClasses>
+                        <serviceClass>11</serviceClass>
+                    </serviceClasses>
+                </exclude>
+            </scopeOfApplicability>
+            <statementCharge>
+                <servicePeriod>
+                    <startDate>2024-06-01</startDate>
+                </servicePeriod>
+                <chargeName>Fruit Belt Project</chargeName>
+                <description>Fruit Belt Project</description>
+                <chargeValue>0</chargeValue>
+                <measurementDefinition>
+                    <calculationMethod>by_metered_quantity</calculationMethod>
+                    <measurementSource>energy</measurementSource>
+                    <unitOfMeasure>Wh</unitOfMeasure>
+                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
+                    <measurementInterval>
+                        <calculationMode>PERIOD</calculationMode>
+                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calcIntervalPer>1</calcIntervalPer>
+                    </measurementInterval>
+                </measurementDefinition>
+                <chargesComponent>delivery</chargesComponent>
+            </statementCharge>
+        </statementCharges>
+    </tariffStatement>
+    <tariffStatement>
+        <sourceDocKind>Statement</sourceDocKind>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%21%5F%3A%5B%2D%21%3CKK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2017-06-07</datePublished>
+        <effectivePeriod>
+            <startDate>2017-07-01</startDate>
+        </effectivePeriod>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
+        <serviceType>Electric</serviceType>
+        <typeCode>ISAS</typeCode>
+        <DPSCaseNumber>09-M-0311</DPSCaseNumber>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2792385</generalRuleRefs>
+        <statementCharges>
+            <scopeOfApplicability>
+                <include>
+                    <serviceClasses>
+                        <serviceClass>All</serviceClass>
+                    </serviceClasses>
+                </include>
+                <exclude>
+                    <serviceClasses>
+                        <serviceClass>11</serviceClass>
+                    </serviceClasses>
+                </exclude>
+            </scopeOfApplicability>
+            <statementCharge>
+                <servicePeriod>
+                    <startDate>2024-06-01</startDate>
+                </servicePeriod>
+                <chargeName>Incremental State Assessment Surcharge</chargeName>
+                <description>Incremental State Assessment Surcharge</description>
+                <chargeValue>0</chargeValue>
+                <measurementDefinition>
+                    <calculationMethod>by_metered_quantity</calculationMethod>
+                    <measurementSource>energy</measurementSource>
+                    <unitOfMeasure>Wh</unitOfMeasure>
+                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
+                    <measurementInterval>
+                        <calculationMode>PERIOD</calculationMode>
+                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calcIntervalPer>1</calcIntervalPer>
+                    </measurementInterval>
+                </measurementDefinition>
+                <chargesComponent>delivery</chargesComponent>
+            </statementCharge>
+        </statementCharges>
+    </tariffStatement>
+    <tariffStatement>
+        <sourceDocKind>Statement</sourceDocKind>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%23%5E%2A%5B%27%20%3C%23K4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2014-01-21</datePublished>
+        <effectivePeriod>
+            <startDate>2014-01-30</startDate>
+        </effectivePeriod>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
+        <serviceType>Electric</serviceType>
+        <typeCode>LMC</typeCode>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2775343</generalRuleRefs>
+        <statementCharges>
+            <scopeOfApplicability>
+                <include>
+                    <serviceClasses>
+                        <serviceClass>All</serviceClass>
+                    </serviceClasses>
+                </include>
+                <exclude>
+                    <serviceClasses>
+                        <serviceClass>11</serviceClass>
+                    </serviceClasses>
+                </exclude>
+            </scopeOfApplicability>
+            <statementCharge>
+                <servicePeriod>
+                    <startDate>2024-06-01</startDate>
+                </servicePeriod>
+                <chargeName>LICAAP Minimum Charge</chargeName>
+                <description>LICAAP Minimum Charge</description>
+                <chargeValue>0</chargeValue>
+                <measurementDefinition>
+                    <calculationMethod>by_metered_quantity</calculationMethod>
+                    <measurementSource>energy</measurementSource>
+                    <unitOfMeasure>Wh</unitOfMeasure>
+                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
+                    <measurementInterval>
+                        <calculationMode>PERIOD</calculationMode>
+                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calcIntervalPer>1</calcIntervalPer>
+                    </measurementInterval>
+                </measurementDefinition>
+                <chargesComponent>delivery</chargesComponent>
+            </statementCharge>
+        </statementCharges>
+    </tariffStatement>
+    <tariffStatement>
+        <sourceDocKind>Statement</sourceDocKind>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EJ%3B%2A%20%5CCK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2024-06-24</datePublished>
+        <effectivePeriod>
+            <startDate>2024-07-01</startDate>
+        </effectivePeriod>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
+        <serviceType>Electric</serviceType>
+        <typeCode>LPCO</typeCode>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2826287</generalRuleRefs>
+        <statementCharges>
+            <scopeOfApplicability>
+                <include>
+                    <serviceClasses>
+                        <serviceClass>All</serviceClass>
+                    </serviceClasses>
+                </include>
+                <exclude>
+                    <serviceClasses>
+                        <serviceClass>11</serviceClass>
+                    </serviceClasses>
+                </exclude>
+            </scopeOfApplicability>
+            <statementCharge>
+                <servicePeriod>
+                    <startDate>2024-06-01</startDate>
+                </servicePeriod>
+                <chargeName>Late Payment Charge &amp; Other</chargeName>
+                <description>Late Payment Charge &amp; Other</description>
+                <chargeValue>0</chargeValue>
+                <measurementDefinition>
+                    <calculationMethod>by_metered_quantity</calculationMethod>
+                    <measurementSource>energy</measurementSource>
+                    <unitOfMeasure>Wh</unitOfMeasure>
+                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
+                    <measurementInterval>
+                        <calculationMode>PERIOD</calculationMode>
+                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calcIntervalPer>1</calcIntervalPer>
+                    </measurementInterval>
+                </measurementDefinition>
+                <chargesComponent>delivery</chargesComponent>
+            </statementCharge>
+        </statementCharges>
+    </tariffStatement>
+    <tariffStatement>
+        <sourceDocKind>Statement</sourceDocKind>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EJ%3B%2D%21LKK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2024-06-21</datePublished>
+        <effectivePeriod>
+            <startDate>2024-07-01</startDate>
+        </effectivePeriod>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>MFC</typeCode>
-        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2827537</generalRuleRefs>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2826263</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
                 <include>
@@ -1091,16 +946,16 @@
     </tariffStatement>
     <tariffStatement>
         <sourceDocKind>Statement</sourceDocKind>
-        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EJW%29%22%5CCK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
-        <datePublished>2024-04-22</datePublished>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBS%2A%5FZO%27%20%2CSK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2012-02-28</datePublished>
         <effectivePeriod>
-            <startDate>2024-05-01</startDate>
+            <startDate>2012-04-01</startDate>
         </effectivePeriod>
-        <iedrOrgAbbreviation>NYE</iedrOrgAbbreviation>
-        <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
-        <typeCode>OTH</typeCode>
-        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825535</generalRuleRefs>
+        <typeCode>MUN</typeCode>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2766723</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
                 <include>
@@ -1118,8 +973,8 @@
                 <servicePeriod>
                     <startDate>2024-06-01</startDate>
                 </servicePeriod>
-                <chargeName>Other Charges and Adjustments</chargeName>
-                <description>Other Charges and Adjustments</description>
+                <chargeName>Muni Underground Surcharge</chargeName>
+                <description>Muni Underground Surcharge</description>
                 <chargeValue>0</chargeValue>
                 <measurementDefinition>
                     <calculationMethod>by_metered_quantity</calculationMethod>
@@ -1138,16 +993,16 @@
     </tariffStatement>
     <tariffStatement>
         <sourceDocKind>Statement</sourceDocKind>
-        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EZW%27%21L%5BK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
-        <datePublished>2024-09-18</datePublished>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EJK%2D%21LCK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2024-04-30</datePublished>
         <effectivePeriod>
-            <startDate>2024-10-01</startDate>
+            <startDate>2024-06-01</startDate>
         </effectivePeriod>
-        <iedrOrgAbbreviation>NYE</iedrOrgAbbreviation>
-        <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
-        <typeCode>RAD</typeCode>
-        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2827441</generalRuleRefs>
+        <typeCode>NON--URD</typeCode>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825689</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
                 <include>
@@ -1165,8 +1020,8 @@
                 <servicePeriod>
                     <startDate>2024-06-01</startDate>
                 </servicePeriod>
-                <chargeName>Residential Agricultural Disc.</chargeName>
-                <description>Residential Agricultural Disc.</description>
+                <chargeName>Non-URD Charges</chargeName>
+                <description>Non-URD Charges</description>
                 <chargeValue>0</chargeValue>
                 <measurementDefinition>
                     <calculationMethod>by_metered_quantity</calculationMethod>
@@ -1185,16 +1040,17 @@
     </tariffStatement>
     <tariffStatement>
         <sourceDocKind>Statement</sourceDocKind>
-        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EJO%28%21%5C%23K4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
-        <datePublished>2024-05-29</datePublished>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EJG%2A%21%3CSK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2024-06-14</datePublished>
         <effectivePeriod>
             <startDate>2024-07-01</startDate>
         </effectivePeriod>
-        <iedrOrgAbbreviation>NYE</iedrOrgAbbreviation>
-        <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
-        <typeCode>RAM</typeCode>
-        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825977</generalRuleRefs>
+        <typeCode>NUP</typeCode>
+        <DPSCaseNumber>20-E-0380</DPSCaseNumber>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825915</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
                 <include>
@@ -1212,8 +1068,8 @@
                 <servicePeriod>
                     <startDate>2024-06-01</startDate>
                 </servicePeriod>
-                <chargeName>Rate Adjustment Mechanism</chargeName>
-                <description>Rate Adjustment Mechanism</description>
+                <chargeName>Net Utility Depreciation Expns</chargeName>
+                <description>Net Utility Depreciation Expns</description>
                 <chargeValue>0</chargeValue>
                 <measurementDefinition>
                     <calculationMethod>by_metered_quantity</calculationMethod>
@@ -1232,16 +1088,63 @@
     </tariffStatement>
     <tariffStatement>
         <sourceDocKind>Statement</sourceDocKind>
-        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EJ%3F%2D%21%2C%5BK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
-        <datePublished>2024-06-27</datePublished>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBS%2A%5FZK%29%21%2C%5BK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2012-02-22</datePublished>
         <effectivePeriod>
-            <startDate>2024-08-01</startDate>
+            <startDate>2012-03-01</startDate>
         </effectivePeriod>
-        <iedrOrgAbbreviation>NYE</iedrOrgAbbreviation>
-        <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
+        <serviceType>Electric</serviceType>
+        <typeCode>NYPA</typeCode>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2766619</generalRuleRefs>
+        <statementCharges>
+            <scopeOfApplicability>
+                <include>
+                    <serviceClasses>
+                        <serviceClass>All</serviceClass>
+                    </serviceClasses>
+                </include>
+                <exclude>
+                    <serviceClasses>
+                        <serviceClass>11</serviceClass>
+                    </serviceClasses>
+                </exclude>
+            </scopeOfApplicability>
+            <statementCharge>
+                <servicePeriod>
+                    <startDate>2024-06-01</startDate>
+                </servicePeriod>
+                <chargeName>NYPA Hydropower Surcharge Statement</chargeName>
+                <description>NYPA Hydropower Surcharge Statement</description>
+                <chargeValue>0</chargeValue>
+                <measurementDefinition>
+                    <calculationMethod>by_metered_quantity</calculationMethod>
+                    <measurementSource>energy</measurementSource>
+                    <unitOfMeasure>Wh</unitOfMeasure>
+                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
+                    <measurementInterval>
+                        <calculationMode>PERIOD</calculationMode>
+                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calcIntervalPer>1</calcIntervalPer>
+                    </measurementInterval>
+                </measurementDefinition>
+                <chargesComponent>delivery</chargesComponent>
+            </statementCharge>
+        </statementCharges>
+    </tariffStatement>
+    <tariffStatement>
+        <sourceDocKind>Statement</sourceDocKind>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EJ%3B%2D%21%5CSK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2024-06-21</datePublished>
+        <effectivePeriod>
+            <startDate>2024-06-28</startDate>
+        </effectivePeriod>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>RDM</typeCode>
-        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2826461</generalRuleRefs>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2826267</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
                 <include>
@@ -1279,16 +1182,64 @@
     </tariffStatement>
     <tariffStatement>
         <sourceDocKind>Statement</sourceDocKind>
-        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%21%5FZG%2B%21%5C%23K4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
-        <datePublished>2017-11-20</datePublished>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%22%5E%2A%5F%28%20%3C%23K4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2016-02-17</datePublished>
         <effectivePeriod>
-            <startDate>2017-12-01</startDate>
+            <startDate>2016-03-01</startDate>
         </effectivePeriod>
-        <iedrOrgAbbreviation>NYE</iedrOrgAbbreviation>
-        <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
+        <serviceType>Electric</serviceType>
+        <typeCode>RPS</typeCode>
+        <DPSCaseNumber>14-M-0094</DPSCaseNumber>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2785511</generalRuleRefs>
+        <statementCharges>
+            <scopeOfApplicability>
+                <include>
+                    <serviceClasses>
+                        <serviceClass>All</serviceClass>
+                    </serviceClasses>
+                </include>
+                <exclude>
+                    <serviceClasses>
+                        <serviceClass>11</serviceClass>
+                    </serviceClasses>
+                </exclude>
+            </scopeOfApplicability>
+            <statementCharge>
+                <servicePeriod>
+                    <startDate>2024-06-01</startDate>
+                </servicePeriod>
+                <chargeName>Renewable Portfolio Standard</chargeName>
+                <description>Renewable Portfolio Standard</description>
+                <chargeValue>0</chargeValue>
+                <measurementDefinition>
+                    <calculationMethod>by_metered_quantity</calculationMethod>
+                    <measurementSource>energy</measurementSource>
+                    <unitOfMeasure>Wh</unitOfMeasure>
+                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
+                    <measurementInterval>
+                        <calculationMode>PERIOD</calculationMode>
+                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calcIntervalPer>1</calcIntervalPer>
+                    </measurementInterval>
+                </measurementDefinition>
+                <chargesComponent>delivery</chargesComponent>
+            </statementCharge>
+        </statementCharges>
+    </tariffStatement>
+    <tariffStatement>
+        <sourceDocKind>Statement</sourceDocKind>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%22%5E%2AK%28%21%2CSK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2016-03-10</datePublished>
+        <effectivePeriod>
+            <startDate>2016-04-01</startDate>
+        </effectivePeriod>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>RSS</typeCode>
-        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2794711</generalRuleRefs>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2785973</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
                 <include>
@@ -1326,16 +1277,63 @@
     </tariffStatement>
     <tariffStatement>
         <sourceDocKind>Statement</sourceDocKind>
-        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EZW%29%22%5C%5BK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
-        <datePublished>2024-09-12</datePublished>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%23%5D%2A%3F%2F%21LSK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2015-02-17</datePublished>
         <effectivePeriod>
-            <startDate>2024-10-01</startDate>
+            <startDate>2015-03-10</startDate>
         </effectivePeriod>
-        <iedrOrgAbbreviation>NYE</iedrOrgAbbreviation>
-        <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
+        <serviceType>Electric</serviceType>
+        <typeCode>RTS</typeCode>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2780461</generalRuleRefs>
+        <statementCharges>
+            <scopeOfApplicability>
+                <include>
+                    <serviceClasses>
+                        <serviceClass>All</serviceClass>
+                    </serviceClasses>
+                </include>
+                <exclude>
+                    <serviceClasses>
+                        <serviceClass>11</serviceClass>
+                    </serviceClasses>
+                </exclude>
+            </scopeOfApplicability>
+            <statementCharge>
+                <servicePeriod>
+                    <startDate>2024-06-01</startDate>
+                </servicePeriod>
+                <chargeName>Revenue Tax Surcharge Statement</chargeName>
+                <description>Revenue Tax Surcharge Statement</description>
+                <chargeValue>0</chargeValue>
+                <measurementDefinition>
+                    <calculationMethod>by_metered_quantity</calculationMethod>
+                    <measurementSource>energy</measurementSource>
+                    <unitOfMeasure>Wh</unitOfMeasure>
+                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
+                    <measurementInterval>
+                        <calculationMode>PERIOD</calculationMode>
+                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calcIntervalPer>1</calcIntervalPer>
+                    </measurementInterval>
+                </measurementDefinition>
+                <chargesComponent>delivery</chargesComponent>
+            </statementCharge>
+        </statementCharges>
+    </tariffStatement>
+    <tariffStatement>
+        <sourceDocKind>Statement</sourceDocKind>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5E%3AK%2D%21L%5BK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2023-12-15</datePublished>
+        <effectivePeriod>
+            <startDate>2024-01-01</startDate>
+        </effectivePeriod>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>SBC</typeCode>
-        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2827397</generalRuleRefs>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2823925</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
                 <include>
@@ -1373,16 +1371,16 @@
     </tariffStatement>
     <tariffStatement>
         <sourceDocKind>Statement</sourceDocKind>
-        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EZW%26%20%5CCK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
-        <datePublished>2024-09-19</datePublished>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EZK%2F%21%5C%5BK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2024-09-24</datePublished>
         <effectivePeriod>
-            <startDate>2024-10-01</startDate>
+            <startDate>2024-09-27</startDate>
         </effectivePeriod>
-        <iedrOrgAbbreviation>NYE</iedrOrgAbbreviation>
-        <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
-        <typeCode>TCS</typeCode>
-        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2827465</generalRuleRefs>
+        <typeCode>SC</typeCode>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2827527</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
                 <include>
@@ -1400,8 +1398,55 @@
                 <servicePeriod>
                     <startDate>2024-06-01</startDate>
                 </servicePeriod>
-                <chargeName>Transition Charge Statement</chargeName>
-                <description>Transition Charge Statement</description>
+                <chargeName>Supply Charge</chargeName>
+                <description>Supply Charge</description>
+                <chargeValue>0</chargeValue>
+                <measurementDefinition>
+                    <calculationMethod>by_metered_quantity</calculationMethod>
+                    <measurementSource>energy</measurementSource>
+                    <unitOfMeasure>Wh</unitOfMeasure>
+                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
+                    <measurementInterval>
+                        <calculationMode>PERIOD</calculationMode>
+                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calcIntervalPer>1</calcIntervalPer>
+                    </measurementInterval>
+                </measurementDefinition>
+                <chargesComponent>supply</chargesComponent>
+            </statementCharge>
+        </statementCharges>
+    </tariffStatement>
+    <tariffStatement>
+        <sourceDocKind>Statement</sourceDocKind>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%20%5EJK%2A%21%5CCK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2020-09-23</datePublished>
+        <effectivePeriod>
+            <startDate>2020-09-28</startDate>
+        </effectivePeriod>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
+        <serviceType>Electric</serviceType>
+        <typeCode>TRA</typeCode>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2809073</generalRuleRefs>
+        <statementCharges>
+            <scopeOfApplicability>
+                <include>
+                    <serviceClasses>
+                        <serviceClass>All</serviceClass>
+                    </serviceClasses>
+                </include>
+                <exclude>
+                    <serviceClasses>
+                        <serviceClass>11</serviceClass>
+                    </serviceClasses>
+                </exclude>
+            </scopeOfApplicability>
+            <statementCharge>
+                <servicePeriod>
+                    <startDate>2024-06-01</startDate>
+                </servicePeriod>
+                <chargeName>Transportation Service Rate</chargeName>
+                <description>Transportation Service Rate</description>
                 <chargeValue>0</chargeValue>
                 <measurementDefinition>
                     <calculationMethod>by_metered_quantity</calculationMethod>
@@ -1420,16 +1465,16 @@
     </tariffStatement>
     <tariffStatement>
         <sourceDocKind>Statement</sourceDocKind>
-        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EJS%29%21%5CCK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
-        <datePublished>2024-03-15</datePublished>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EZW%26%21L%5BK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2024-09-20</datePublished>
         <effectivePeriod>
-            <startDate>2024-04-01</startDate>
+            <startDate>2024-09-27</startDate>
         </effectivePeriod>
-        <iedrOrgAbbreviation>NYE</iedrOrgAbbreviation>
-        <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
-        <typeCode>TSP</typeCode>
-        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825173</generalRuleRefs>
+        <typeCode>TRAS</typeCode>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2827477</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
                 <include>
@@ -1447,8 +1492,8 @@
                 <servicePeriod>
                     <startDate>2024-06-01</startDate>
                 </servicePeriod>
-                <chargeName>Tax Surcharge Percentages</chargeName>
-                <description>Tax Surcharge Percentages</description>
+                <chargeName>Transmission Revenue Adjustment Statement</chargeName>
+                <description>Transmission Revenue Adjustment Statement</description>
                 <chargeValue>0</chargeValue>
                 <measurementDefinition>
                     <calculationMethod>by_metered_quantity</calculationMethod>
@@ -1467,16 +1512,63 @@
     </tariffStatement>
     <tariffStatement>
         <sourceDocKind>Statement</sourceDocKind>
-        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EJC%2D%21%5CKK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
-        <datePublished>2024-05-30</datePublished>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EJK%2D%21LKK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2024-04-30</datePublished>
         <effectivePeriod>
             <startDate>2024-06-01</startDate>
         </effectivePeriod>
-        <iedrOrgAbbreviation>NYE</iedrOrgAbbreviation>
-        <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
+        <serviceType>Electric</serviceType>
+        <typeCode>URD</typeCode>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825689</generalRuleRefs>
+        <statementCharges>
+            <scopeOfApplicability>
+                <include>
+                    <serviceClasses>
+                        <serviceClass>All</serviceClass>
+                    </serviceClasses>
+                </include>
+                <exclude>
+                    <serviceClasses>
+                        <serviceClass>11</serviceClass>
+                    </serviceClasses>
+                </exclude>
+            </scopeOfApplicability>
+            <statementCharge>
+                <servicePeriod>
+                    <startDate>2024-06-01</startDate>
+                </servicePeriod>
+                <chargeName>Underground Residential Distribution Contribution</chargeName>
+                <description>Underground Residential Distribution Contribution</description>
+                <chargeValue>0</chargeValue>
+                <measurementDefinition>
+                    <calculationMethod>by_metered_quantity</calculationMethod>
+                    <measurementSource>energy</measurementSource>
+                    <unitOfMeasure>Wh</unitOfMeasure>
+                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
+                    <measurementInterval>
+                        <calculationMode>PERIOD</calculationMode>
+                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calcIntervalPer>1</calcIntervalPer>
+                    </measurementInterval>
+                </measurementDefinition>
+                <chargesComponent>delivery</chargesComponent>
+            </statementCharge>
+        </statementCharges>
+    </tariffStatement>
+    <tariffStatement>
+        <sourceDocKind>Statement</sourceDocKind>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EZK%2F%20%3C%5BK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2024-09-24</datePublished>
+        <effectivePeriod>
+            <startDate>2024-09-27</startDate>
+        </effectivePeriod>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>VDER-CR</typeCode>
-        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2826029</generalRuleRefs>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2827517</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
                 <include>
@@ -1514,16 +1606,16 @@
     </tariffStatement>
     <tariffStatement>
         <sourceDocKind>Statement</sourceDocKind>
-        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EZK%2A%20%5CCK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
-        <datePublished>2024-09-30</datePublished>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EZK%2F%21LKK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2024-09-24</datePublished>
         <effectivePeriod>
-            <startDate>2024-10-01</startDate>
+            <startDate>2024-09-27</startDate>
         </effectivePeriod>
-        <iedrOrgAbbreviation>NYE</iedrOrgAbbreviation>
-        <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>VDER-CRED</typeCode>
-        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2827641</generalRuleRefs>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2827521</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
                 <include>
@@ -1556,6 +1648,53 @@
                     </measurementInterval>
                 </measurementDefinition>
                 <chargesComponent>export</chargesComponent>
+            </statementCharge>
+        </statementCharges>
+    </tariffStatement>
+    <tariffStatement>
+        <sourceDocKind>Statement</sourceDocKind>
+        <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBS%2B%5D%3AO%2C%20LKK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
+        <datePublished>2011-06-15</datePublished>
+        <effectivePeriod>
+            <startDate>2011-07-01</startDate>
+        </effectivePeriod>
+        <iedrOrgAbbreviation>NIM</iedrOrgAbbreviation>
+        <dpsUtilityPscNumber>220</dpsUtilityPscNumber>
+        <serviceType>Electric</serviceType>
+        <typeCode>WF</typeCode>
+        <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2763539</generalRuleRefs>
+        <statementCharges>
+            <scopeOfApplicability>
+                <include>
+                    <serviceClasses>
+                        <serviceClass>All</serviceClass>
+                    </serviceClasses>
+                </include>
+                <exclude>
+                    <serviceClasses>
+                        <serviceClass>11</serviceClass>
+                    </serviceClasses>
+                </exclude>
+            </scopeOfApplicability>
+            <statementCharge>
+                <servicePeriod>
+                    <startDate>2024-06-01</startDate>
+                </servicePeriod>
+                <chargeName>Weight Factors</chargeName>
+                <description>Weight Factors</description>
+                <chargeValue>0</chargeValue>
+                <measurementDefinition>
+                    <calculationMethod>by_metered_quantity</calculationMethod>
+                    <measurementSource>energy</measurementSource>
+                    <unitOfMeasure>Wh</unitOfMeasure>
+                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
+                    <measurementInterval>
+                        <calculationMode>PERIOD</calculationMode>
+                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calcIntervalPer>1</calcIntervalPer>
+                    </measurementInterval>
+                </measurementDefinition>
+                <chargesComponent>delivery</chargesComponent>
             </statementCharge>
         </statementCharges>
     </tariffStatement>
