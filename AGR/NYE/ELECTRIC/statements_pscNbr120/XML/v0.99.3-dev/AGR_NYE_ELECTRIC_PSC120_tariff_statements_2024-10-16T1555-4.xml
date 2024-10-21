@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<tariffStatements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Flux-Tailor/rate-plan-schema/refs/tags/v0.99.2-dev/tariff_statements.xsd">
+<tariffStatements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Flux-Tailor/rate-plan-schema/refs/tags/v0.99.3-dev/tariff_statements.xsd">
     <tariffStatement>
         <sourceDocKind>Statement</sourceDocKind>
         <sourceURL>https://ets.dps.ny.gov/ets_web/search/showPDF.cfm?G%3E%29S2%3DJ9JSBW%27%5EZ%5B%2F%20%3C%5BK4%3FXVAHQQ%3AW%2FLJ%5B%5E%3AICSBNKB%5FC%2A69NBFZ%0A</sourceURL>
@@ -29,7 +29,7 @@
                 <servicePeriod>
                     <startDate>2024-08-01</startDate>
                 </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
+                <chargeName>Arrears Relief Program Phase 1 Charge</chargeName>
                 <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
                     applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
                     Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
@@ -41,8 +41,8 @@
                     <unitOfMeasure>Wh</unitOfMeasure>
                     <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
                     <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
                         <calcIntervalPer>1</calcIntervalPer>
                     </measurementInterval>
                 </measurementDefinition>
@@ -61,7 +61,7 @@
                 <servicePeriod>
                     <startDate>2024-08-01</startDate>
                 </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
+                <chargeName>Arrears Relief Program Phase 1 Charge</chargeName>
                 <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
                     applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
                     Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
@@ -73,8 +73,8 @@
                     <unitOfMeasure>Wh</unitOfMeasure>
                     <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
                     <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
                         <calcIntervalPer>1</calcIntervalPer>
                     </measurementInterval>
                 </measurementDefinition>
@@ -93,7 +93,7 @@
                 <servicePeriod>
                     <startDate>2024-08-01</startDate>
                 </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
+                <chargeName>Arrears Relief Program Phase 1 Charge</chargeName>
                 <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
                     applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
                     Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
@@ -105,8 +105,8 @@
                     <unitOfMeasure>Wh</unitOfMeasure>
                     <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
                     <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
                         <calcIntervalPer>1</calcIntervalPer>
                     </measurementInterval>
                 </measurementDefinition>
@@ -125,7 +125,7 @@
                 <servicePeriod>
                     <startDate>2024-08-01</startDate>
                 </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
+                <chargeName>Arrears Relief Program Phase 1 Charge</chargeName>
                 <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
                     applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
                     Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
@@ -137,8 +137,8 @@
                     <unitOfMeasure>Wh</unitOfMeasure>
                     <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
                     <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
                         <calcIntervalPer>1</calcIntervalPer>
                     </measurementInterval>
                 </measurementDefinition>
@@ -157,8 +157,7 @@
                 <servicePeriod>
                     <startDate>2024-08-01</startDate>
                 </servicePeriod>
-                <chargeName>Arrears Relief Program Phase 1
-                    Charge per kWh</chargeName>
+                <chargeName>Arrears Relief Program Phase 1 Charge</chargeName>
                 <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
                     applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
                     Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
@@ -170,8 +169,8 @@
                     <unitOfMeasure>Wh</unitOfMeasure>
                     <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
                     <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
                         <calcIntervalPer>1</calcIntervalPer>
                     </measurementInterval>
                 </measurementDefinition>
@@ -190,7 +189,7 @@
                 <servicePeriod>
                     <startDate>2024-08-01</startDate>
                 </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
+                <chargeName>Arrears Relief Program Phase 1 Charge</chargeName>
                 <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
                     applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
                     Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
@@ -202,8 +201,8 @@
                     <unitOfMeasure>Wh</unitOfMeasure>
                     <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
                     <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
                         <calcIntervalPer>1</calcIntervalPer>
                     </measurementInterval>
                 </measurementDefinition>
@@ -214,28 +213,37 @@
             <scopeOfApplicability>
                 <include>
                     <serviceClasses>
-                        <serviceClass>1</serviceClass>
+                        <serviceClass>2</serviceClass>
                     </serviceClasses>
+                    <rateCodes>
+                        <rateCode>2 – General Service with
+                            Demand</rateCode>
+                       <!-- no separate rate plan option/consistent rate code exists for demand option, using PDF text string as rateCode-->
+                    </rateCodes>
+                    <customRatePlanAttribute>
+                        <attributeName>HasDemandCharges</attributeName>
+                        <value>true</value>
+                    </customRatePlanAttribute>
                 </include>
             </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-08-01</startDate>
                 </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
+                <chargeName>Arrears Relief Program Phase 1 Charge</chargeName>
                 <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
                     applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
                     Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
                     Transition Surcharge.</description>
-                <chargeValue>0.000528</chargeValue>
+                <chargeValue>0.031115</chargeValue>
                 <measurementDefinition>
                     <calculationMethod>by_metered_quantity</calculationMethod>
                     <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
+                    <unitOfMeasure>W</unitOfMeasure>
                     <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
                     <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
                         <calcIntervalPer>1</calcIntervalPer>
                     </measurementInterval>
                 </measurementDefinition>
@@ -246,28 +254,35 @@
             <scopeOfApplicability>
                 <include>
                     <serviceClasses>
-                        <serviceClass>1</serviceClass>
+                        <serviceClass>3</serviceClass>
                     </serviceClasses>
+                    <rateCodes>
+                        <rateCode>3P</rateCode>
+                    </rateCodes>
+                    <customRatePlanAttribute>
+                        <attributeName>HasDemandCharges</attributeName>
+                        <value>true</value>
+                    </customRatePlanAttribute>
                 </include>
             </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-08-01</startDate>
                 </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
+                <chargeName>Arrears Relief Program Phase 1 Charge</chargeName>
                 <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
                     applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
                     Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
                     Transition Surcharge.</description>
-                <chargeValue>0.000528</chargeValue>
+                <chargeValue>0.020346</chargeValue>
                 <measurementDefinition>
                     <calculationMethod>by_metered_quantity</calculationMethod>
                     <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
+                    <unitOfMeasure>W</unitOfMeasure>
                     <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
                     <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
                         <calcIntervalPer>1</calcIntervalPer>
                     </measurementInterval>
                 </measurementDefinition>
@@ -278,28 +293,191 @@
             <scopeOfApplicability>
                 <include>
                     <serviceClasses>
-                        <serviceClass>1</serviceClass>
+                        <serviceClass>3</serviceClass>
                     </serviceClasses>
+                    <rateCodes>
+                        <rateCode>3S</rateCode>
+                    </rateCodes>
+                    <customRatePlanAttribute>
+                        <attributeName>HasDemandCharges</attributeName>
+                        <value>true</value>
+                    </customRatePlanAttribute>
                 </include>
             </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-08-01</startDate>
                 </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
+                <chargeName>Arrears Relief Program Phase 1 Charge</chargeName>
                 <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
                     applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
                     Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
                     Transition Surcharge.</description>
-                <chargeValue>0.000528</chargeValue>
+                <chargeValue>0.020479</chargeValue>
                 <measurementDefinition>
                     <calculationMethod>by_metered_quantity</calculationMethod>
                     <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
+                    <unitOfMeasure>W</unitOfMeasure>
                     <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
                     <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
+                        <calcIntervalPer>1</calcIntervalPer>
+                    </measurementInterval>
+                </measurementDefinition>
+                <chargesComponent>delivery</chargesComponent>
+            </statementCharge>
+        </statementCharges>
+        <statementCharges>
+            <scopeOfApplicability>
+                <include>
+                    <serviceClasses>
+                        <serviceClass>7</serviceClass>
+                    </serviceClasses>
+                    <rateCodes>
+                        <rateCode>7-1</rateCode>
+                    </rateCodes>
+                    <customRatePlanAttribute>
+                        <attributeName>HasDemandCharges</attributeName>
+                        <value>true</value>
+                    </customRatePlanAttribute>
+                </include>
+            </scopeOfApplicability>
+            <statementCharge>
+                <servicePeriod>
+                    <startDate>2024-08-01</startDate>
+                </servicePeriod>
+                <chargeName>Arrears Relief Program Phase 1 Charge</chargeName>
+                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
+                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
+                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
+                    Transition Surcharge.</description>
+                <chargeValue>0.026897</chargeValue>
+                <measurementDefinition>
+                    <calculationMethod>by_metered_quantity</calculationMethod>
+                    <measurementSource>energy</measurementSource>
+                    <unitOfMeasure>W</unitOfMeasure>
+                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
+                    <measurementInterval>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
+                        <calcIntervalPer>1</calcIntervalPer>
+                    </measurementInterval>
+                </measurementDefinition>
+                <chargesComponent>delivery</chargesComponent>
+            </statementCharge>
+        </statementCharges>
+        <statementCharges>
+            <scopeOfApplicability>
+                <include>
+                    <serviceClasses>
+                        <serviceClass>7</serviceClass>
+                    </serviceClasses>
+                    <rateCodes>
+                        <rateCode>7-2</rateCode>
+                    </rateCodes>
+                    <customRatePlanAttribute>
+                        <attributeName>HasDemandCharges</attributeName>
+                        <value>true</value>
+                    </customRatePlanAttribute>
+                </include>
+            </scopeOfApplicability>
+            <statementCharge>
+                <servicePeriod>
+                    <startDate>2024-08-01</startDate>
+                </servicePeriod>
+                <chargeName>Arrears Relief Program Phase 1 Charge</chargeName>
+                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
+                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
+                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
+                    Transition Surcharge.</description>
+                <chargeValue>0.020274</chargeValue>
+                <measurementDefinition>
+                    <calculationMethod>by_metered_quantity</calculationMethod>
+                    <measurementSource>energy</measurementSource>
+                    <unitOfMeasure>W</unitOfMeasure>
+                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
+                    <measurementInterval>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
+                        <calcIntervalPer>1</calcIntervalPer>
+                    </measurementInterval>
+                </measurementDefinition>
+                <chargesComponent>delivery</chargesComponent>
+            </statementCharge>
+        </statementCharges>
+        <statementCharges>
+            <scopeOfApplicability>
+                <include>
+                    <serviceClasses>
+                        <serviceClass>7</serviceClass>
+                    </serviceClasses>
+                    <rateCodes>
+                        <rateCode>7-3</rateCode>
+                    </rateCodes>
+                    <customRatePlanAttribute>
+                        <attributeName>HasDemandCharges</attributeName>
+                        <value>true</value>
+                    </customRatePlanAttribute>
+                </include>
+            </scopeOfApplicability>
+            <statementCharge>
+                <servicePeriod>
+                    <startDate>2024-08-01</startDate>
+                </servicePeriod>
+                <chargeName>Arrears Relief Program Phase 1 Charge</chargeName>
+                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
+                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
+                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
+                    Transition Surcharge.</description>
+                <chargeValue>0.007122</chargeValue>
+                <measurementDefinition>
+                    <calculationMethod>by_metered_quantity</calculationMethod>
+                    <measurementSource>energy</measurementSource>
+                    <unitOfMeasure>W</unitOfMeasure>
+                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
+                    <measurementInterval>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
+                        <calcIntervalPer>1</calcIntervalPer>
+                    </measurementInterval>
+                </measurementDefinition>
+                <chargesComponent>delivery</chargesComponent>
+            </statementCharge>
+        </statementCharges>
+        <statementCharges>
+            <scopeOfApplicability>
+                <include>
+                    <serviceClasses>
+                        <serviceClass>7</serviceClass>
+                    </serviceClasses>
+                    <rateCodes>
+                        <rateCode>7-4</rateCode>
+                    </rateCodes>
+                    <customRatePlanAttribute>
+                        <attributeName>HasDemandCharges</attributeName>
+                        <value>true</value>
+                    </customRatePlanAttribute>
+                </include>
+            </scopeOfApplicability>
+            <statementCharge>
+                <servicePeriod>
+                    <startDate>2024-08-01</startDate>
+                </servicePeriod>
+                <chargeName>Arrears Relief Program Phase 1 Charge</chargeName>
+                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
+                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
+                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
+                    Transition Surcharge.</description>
+                <chargeValue>0.003111</chargeValue>
+                <measurementDefinition>
+                    <calculationMethod>by_metered_quantity</calculationMethod>
+                    <measurementSource>energy</measurementSource>
+                    <unitOfMeasure>W</unitOfMeasure>
+                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
+                    <measurementInterval>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
                         <calcIntervalPer>1</calcIntervalPer>
                     </measurementInterval>
                 </measurementDefinition>
@@ -318,17 +496,20 @@
                 <servicePeriod>
                     <startDate>2024-08-01</startDate>
                 </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>Arrears Relief Program</description>
-                <chargeValue>0.000528</chargeValue>
+                <chargeName>Arrears Relief Program Phase 1 Charge</chargeName>
+                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
+                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
+                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
+                    Transition Surcharge.</description>
+                <chargeValue>0.000742</chargeValue>
                 <measurementDefinition>
                     <calculationMethod>by_metered_quantity</calculationMethod>
                     <measurementSource>energy</measurementSource>
                     <unitOfMeasure>Wh</unitOfMeasure>
                     <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
                     <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
                         <calcIntervalPer>1</calcIntervalPer>
                     </measurementInterval>
                 </measurementDefinition>
@@ -339,7 +520,7 @@
             <scopeOfApplicability>
                 <include>
                     <serviceClasses>
-                        <serviceClass>1</serviceClass>
+                        <serviceClass>8</serviceClass>
                     </serviceClasses>
                 </include>
             </scopeOfApplicability>
@@ -347,27 +528,31 @@
                 <servicePeriod>
                     <startDate>2024-08-01</startDate>
                 </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>Arrears Relief Program</description>
-                <chargeValue>0.000528</chargeValue>
+                <chargeName>Arrears Relief Program Phase 2 Charge</chargeName>
+                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
+                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
+                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
+                    Transition Surcharge.</description>
+                <chargeValue>0.000758 </chargeValue>
                 <measurementDefinition>
                     <calculationMethod>by_metered_quantity</calculationMethod>
                     <measurementSource>energy</measurementSource>
                     <unitOfMeasure>Wh</unitOfMeasure>
                     <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
                     <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
                         <calcIntervalPer>1</calcIntervalPer>
                     </measurementInterval>
                 </measurementDefinition>
                 <chargesComponent>delivery</chargesComponent>
             </statementCharge>
-        </statementCharges><statementCharges>
+        </statementCharges>
+        <statementCharges>
             <scopeOfApplicability>
                 <include>
                     <serviceClasses>
-                        <serviceClass>1</serviceClass>
+                        <serviceClass>12</serviceClass>
                     </serviceClasses>
                 </include>
             </scopeOfApplicability>
@@ -375,27 +560,31 @@
                 <servicePeriod>
                     <startDate>2024-08-01</startDate>
                 </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>Arrears Relief Program</description>
-                <chargeValue>0.000528</chargeValue>
+                <chargeName>Arrears Relief Program Phase 2 Charge</chargeName>
+                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
+                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
+                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
+                    Transition Surcharge.</description>
+                <chargeValue>0.000602</chargeValue>
                 <measurementDefinition>
                     <calculationMethod>by_metered_quantity</calculationMethod>
                     <measurementSource>energy</measurementSource>
                     <unitOfMeasure>Wh</unitOfMeasure>
                     <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
                     <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
                         <calcIntervalPer>1</calcIntervalPer>
                     </measurementInterval>
                 </measurementDefinition>
                 <chargesComponent>delivery</chargesComponent>
             </statementCharge>
-        </statementCharges><statementCharges>
+        </statementCharges>
+        <statementCharges>
             <scopeOfApplicability>
                 <include>
                     <serviceClasses>
-                        <serviceClass>1</serviceClass>
+                        <serviceClass>5</serviceClass>
                     </serviceClasses>
                 </include>
             </scopeOfApplicability>
@@ -403,27 +592,31 @@
                 <servicePeriod>
                     <startDate>2024-08-01</startDate>
                 </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>Arrears Relief Program</description>
-                <chargeValue>0.000528</chargeValue>
+                <chargeName>Arrears Relief Program Phase 2 Charge</chargeName>
+                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
+                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
+                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
+                    Transition Surcharge.</description>
+                <chargeValue>0.000532</chargeValue>
                 <measurementDefinition>
                     <calculationMethod>by_metered_quantity</calculationMethod>
                     <measurementSource>energy</measurementSource>
                     <unitOfMeasure>Wh</unitOfMeasure>
                     <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
                     <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
                         <calcIntervalPer>1</calcIntervalPer>
                     </measurementInterval>
                 </measurementDefinition>
                 <chargesComponent>delivery</chargesComponent>
             </statementCharge>
-        </statementCharges><statementCharges>
+        </statementCharges>
+        <statementCharges>
             <scopeOfApplicability>
                 <include>
                     <serviceClasses>
-                        <serviceClass>1</serviceClass>
+                        <serviceClass>6</serviceClass>
                     </serviceClasses>
                 </include>
             </scopeOfApplicability>
@@ -431,27 +624,31 @@
                 <servicePeriod>
                     <startDate>2024-08-01</startDate>
                 </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>Arrears Relief Program</description>
-                <chargeValue>0.000528</chargeValue>
+                <chargeName>Arrears Relief Program Phase 2 Charge</chargeName>
+                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
+                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
+                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
+                    Transition Surcharge.</description>
+                <chargeValue>0.000316</chargeValue>
                 <measurementDefinition>
                     <calculationMethod>by_metered_quantity</calculationMethod>
                     <measurementSource>energy</measurementSource>
                     <unitOfMeasure>Wh</unitOfMeasure>
                     <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
                     <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
                         <calcIntervalPer>1</calcIntervalPer>
                     </measurementInterval>
                 </measurementDefinition>
                 <chargesComponent>delivery</chargesComponent>
             </statementCharge>
-        </statementCharges><statementCharges>
+        </statementCharges>
+        <statementCharges>
             <scopeOfApplicability>
                 <include>
                     <serviceClasses>
-                        <serviceClass>1</serviceClass>
+                        <serviceClass>9</serviceClass>
                     </serviceClasses>
                 </include>
             </scopeOfApplicability>
@@ -459,157 +656,295 @@
                 <servicePeriod>
                     <startDate>2024-08-01</startDate>
                 </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>Arrears Relief Program</description>
-                <chargeValue>0.000528</chargeValue>
+                <chargeName>Arrears Relief Program Phase 2 Charge</chargeName>
+                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
+                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
+                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
+                    Transition Surcharge.</description>
+                <chargeValue>0.000230</chargeValue>
                 <measurementDefinition>
                     <calculationMethod>by_metered_quantity</calculationMethod>
                     <measurementSource>energy</measurementSource>
                     <unitOfMeasure>Wh</unitOfMeasure>
                     <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
                     <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
                         <calcIntervalPer>1</calcIntervalPer>
                     </measurementInterval>
                 </measurementDefinition>
                 <chargesComponent>delivery</chargesComponent>
             </statementCharge>
-        </statementCharges><statementCharges>
+        </statementCharges>
+        <statementCharges>
             <scopeOfApplicability>
                 <include>
                     <serviceClasses>
-                        <serviceClass>1</serviceClass>
+                        <serviceClass>2</serviceClass>
                     </serviceClasses>
+                    <rateCodes>
+                        <rateCode>2 – General Service with
+                            Demand</rateCode>
+                        <!-- no separate rate plan option/consistent rate code exists for demand option, using PDF text string as rateCode-->
+                    </rateCodes>
+                    <customRatePlanAttribute>
+                        <attributeName>HasDemandCharges</attributeName>
+                        <value>true</value>
+                    </customRatePlanAttribute>
                 </include>
             </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-08-01</startDate>
                 </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>Arrears Relief Program</description>
-                <chargeValue>0.000528</chargeValue>
+                <chargeName>Arrears Relief Program Phase 2 Charge</chargeName>
+                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
+                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
+                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
+                    Transition Surcharge.</description>
+                <chargeValue>0.043723</chargeValue>
                 <measurementDefinition>
                     <calculationMethod>by_metered_quantity</calculationMethod>
                     <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
+                    <unitOfMeasure>W</unitOfMeasure>
                     <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
                     <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
                         <calcIntervalPer>1</calcIntervalPer>
                     </measurementInterval>
                 </measurementDefinition>
                 <chargesComponent>delivery</chargesComponent>
             </statementCharge>
-        </statementCharges><statementCharges>
+        </statementCharges>
+        <statementCharges>
             <scopeOfApplicability>
                 <include>
                     <serviceClasses>
-                        <serviceClass>1</serviceClass>
+                        <serviceClass>3</serviceClass>
                     </serviceClasses>
+                    <rateCodes>
+                        <rateCode>3P</rateCode>
+                    </rateCodes>
+                    <customRatePlanAttribute>
+                        <attributeName>HasDemandCharges</attributeName>
+                        <value>true</value>
+                    </customRatePlanAttribute>
                 </include>
             </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-08-01</startDate>
                 </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>Arrears Relief Program</description>
-                <chargeValue>0.000528</chargeValue>
+                <chargeName>Arrears Relief Program Phase 2 Charge</chargeName>
+                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
+                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
+                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
+                    Transition Surcharge.</description>
+                <chargeValue>0.028590</chargeValue>
                 <measurementDefinition>
                     <calculationMethod>by_metered_quantity</calculationMethod>
                     <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
+                    <unitOfMeasure>W</unitOfMeasure>
                     <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
                     <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
                         <calcIntervalPer>1</calcIntervalPer>
                     </measurementInterval>
                 </measurementDefinition>
                 <chargesComponent>delivery</chargesComponent>
             </statementCharge>
-        </statementCharges><statementCharges>
+        </statementCharges>
+        <statementCharges>
             <scopeOfApplicability>
                 <include>
                     <serviceClasses>
-                        <serviceClass>1</serviceClass>
+                        <serviceClass>3</serviceClass>
                     </serviceClasses>
+                    <rateCodes>
+                        <rateCode>3S</rateCode>
+                    </rateCodes>
+                    <customRatePlanAttribute>
+                        <attributeName>HasDemandCharges</attributeName>
+                        <value>true</value>
+                    </customRatePlanAttribute>
                 </include>
             </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-08-01</startDate>
                 </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>Arrears Relief Program</description>
-                <chargeValue>0.000528</chargeValue>
+                <chargeName>Arrears Relief Program Phase 2 Charge</chargeName>
+                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
+                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
+                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
+                    Transition Surcharge.</description>
+                <chargeValue>0.028777</chargeValue>
                 <measurementDefinition>
                     <calculationMethod>by_metered_quantity</calculationMethod>
                     <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
+                    <unitOfMeasure>W</unitOfMeasure>
                     <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
                     <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
                         <calcIntervalPer>1</calcIntervalPer>
                     </measurementInterval>
                 </measurementDefinition>
                 <chargesComponent>delivery</chargesComponent>
             </statementCharge>
-        </statementCharges><statementCharges>
+        </statementCharges>
+        <statementCharges>
             <scopeOfApplicability>
                 <include>
                     <serviceClasses>
-                        <serviceClass>1</serviceClass>
+                        <serviceClass>7</serviceClass>
                     </serviceClasses>
+                    <rateCodes>
+                        <rateCode>7-1</rateCode>
+                    </rateCodes>
+                    <customRatePlanAttribute>
+                        <attributeName>HasDemandCharges</attributeName>
+                        <value>true</value>
+                    </customRatePlanAttribute>
                 </include>
             </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-08-01</startDate>
                 </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>Arrears Relief Program</description>
-                <chargeValue>0.000528</chargeValue>
+                <chargeName>Arrears Relief Program Phase 2 Charge</chargeName>
+                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
+                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
+                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
+                    Transition Surcharge.</description>
+                <chargeValue>0.037796</chargeValue>
                 <measurementDefinition>
                     <calculationMethod>by_metered_quantity</calculationMethod>
                     <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
+                    <unitOfMeasure>W</unitOfMeasure>
                     <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
                     <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
                         <calcIntervalPer>1</calcIntervalPer>
                     </measurementInterval>
                 </measurementDefinition>
                 <chargesComponent>delivery</chargesComponent>
             </statementCharge>
-        </statementCharges><statementCharges>
+        </statementCharges>
+        <statementCharges>
             <scopeOfApplicability>
                 <include>
                     <serviceClasses>
-                        <serviceClass>1</serviceClass>
+                        <serviceClass>7</serviceClass>
                     </serviceClasses>
+                    <rateCodes>
+                        <rateCode>7-2</rateCode>
+                    </rateCodes>
+                    <customRatePlanAttribute>
+                        <attributeName>HasDemandCharges</attributeName>
+                        <value>true</value>
+                    </customRatePlanAttribute>
                 </include>
             </scopeOfApplicability>
             <statementCharge>
                 <servicePeriod>
                     <startDate>2024-08-01</startDate>
                 </servicePeriod>
-                <chargeName>Arrears Relief Program</chargeName>
-                <description>Arrears Relief Program</description>
-                <chargeValue>0.000528</chargeValue>
+                <chargeName>Arrears Relief Program Phase 2 Charge</chargeName>
+                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
+                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
+                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
+                    Transition Surcharge.</description>
+                <chargeValue>0.028489</chargeValue>
                 <measurementDefinition>
                     <calculationMethod>by_metered_quantity</calculationMethod>
                     <measurementSource>energy</measurementSource>
-                    <unitOfMeasure>Wh</unitOfMeasure>
+                    <unitOfMeasure>W</unitOfMeasure>
                     <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
                     <measurementInterval>
-                        <calculationMode>PERIOD</calculationMode>
-                        <calcIntervalKind>MONTH</calcIntervalKind>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
+                        <calcIntervalPer>1</calcIntervalPer>
+                    </measurementInterval>
+                </measurementDefinition>
+                <chargesComponent>delivery</chargesComponent>
+            </statementCharge>
+        </statementCharges>
+        <statementCharges>
+            <scopeOfApplicability>
+                <include>
+                    <serviceClasses>
+                        <serviceClass>7</serviceClass>
+                    </serviceClasses>
+                    <rateCodes>
+                        <rateCode>7-3</rateCode>
+                    </rateCodes>
+                    <customRatePlanAttribute>
+                        <attributeName>HasDemandCharges</attributeName>
+                        <value>true</value>
+                    </customRatePlanAttribute>
+                </include>
+            </scopeOfApplicability>
+            <statementCharge>
+                <servicePeriod>
+                    <startDate>2024-08-01</startDate>
+                </servicePeriod>
+                <chargeName>Arrears Relief Program Phase 2 Charge</chargeName>
+                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
+                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
+                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
+                    Transition Surcharge.</description>
+                <chargeValue>0.010007</chargeValue>
+                <measurementDefinition>
+                    <calculationMethod>by_metered_quantity</calculationMethod>
+                    <measurementSource>energy</measurementSource>
+                    <unitOfMeasure>W</unitOfMeasure>
+                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
+                    <measurementInterval>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
+                        <calcIntervalPer>1</calcIntervalPer>
+                    </measurementInterval>
+                </measurementDefinition>
+                <chargesComponent>delivery</chargesComponent>
+            </statementCharge>
+        </statementCharges>
+        <statementCharges>
+            <scopeOfApplicability>
+                <include>
+                    <serviceClasses>
+                        <serviceClass>7</serviceClass>
+                    </serviceClasses>
+                    <rateCodes>
+                        <rateCode>7-4</rateCode>
+                    </rateCodes>
+                    <customRatePlanAttribute>
+                        <attributeName>HasDemandCharges</attributeName>
+                        <value>true</value>
+                    </customRatePlanAttribute>
+                </include>
+            </scopeOfApplicability>
+            <statementCharge>
+                <servicePeriod>
+                    <startDate>2024-08-01</startDate>
+                </servicePeriod>
+                <chargeName>Arrears Relief Program Phase 2 Charge</chargeName>
+                <description>The following charges are applicable to energy delivered [all kilowatt-hours (kWhs) or kilowatts (kW), as
+                    applicable] under the service classifications listed below. See PSC No. 120 General Information Section 51, Arrears
+                    Relief Program (“ARP”) Surcharge, for further details. The Company shall collect the ARP Surcharge through the
+                    Transition Surcharge.</description>
+                <chargeValue>0.004371</chargeValue>
+                <measurementDefinition>
+                    <calculationMethod>by_metered_quantity</calculationMethod>
+                    <measurementSource>energy</measurementSource>
+                    <unitOfMeasure>W</unitOfMeasure>
+                    <unitMultiplierPowerOfTen>3</unitMultiplierPowerOfTen>
+                    <measurementInterval>
+                        <calculationMode>TOTAL</calculationMode>
+                        <calcIntervalKind>PER-CYCLE</calcIntervalKind>
                         <calcIntervalPer>1</calcIntervalPer>
                     </measurementInterval>
                 </measurementDefinition>
@@ -628,6 +963,8 @@
         <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>CBC</typeCode>
+        <docNumber>00</docNumber>
+        <dpsCaseNumber>20-M-0082</dpsCaseNumber>
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2823909</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
@@ -675,7 +1012,8 @@
         <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>CCA</typeCode>
-        <DPSCaseNumber>20-M-0082</DPSCaseNumber>
+        <docNumber>00</docNumber>
+        <dpsCaseNumber>20-M-0082</dpsCaseNumber>
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2814963</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
@@ -723,6 +1061,8 @@
         <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>CES</typeCode>
+        <docNumber>00</docNumber>
+        <dpsCaseNumber>20-M-0082</dpsCaseNumber>
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825157</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
@@ -770,6 +1110,7 @@
         <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>DISC</typeCode>
+        <docNumber>00</docNumber>
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2824993</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
@@ -817,6 +1158,7 @@
         <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>DLC</typeCode>
+        <docNumber>00</docNumber>
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2806689</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
@@ -864,6 +1206,7 @@
         <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>DLM</typeCode>
+        <docNumber>00</docNumber>
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825541</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
@@ -911,6 +1254,7 @@
         <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>EAM</typeCode>
+        <docNumber>00</docNumber>
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2822897</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
@@ -958,7 +1302,8 @@
         <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>ESS</typeCode>
-        <DPSCaseNumber>18-E-0130</DPSCaseNumber>
+        <docNumber>00</docNumber>
+        <dpsCaseNumber>18-E-0130</dpsCaseNumber>
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2814801</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
@@ -1006,6 +1351,7 @@
         <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>EVS</typeCode>
+        <docNumber>00</docNumber>
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2824339</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
@@ -1053,6 +1399,7 @@
         <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>MFC</typeCode>
+        <docNumber>00</docNumber>
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2827537</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
@@ -1100,6 +1447,7 @@
         <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>OTH</typeCode>
+        <docNumber>00</docNumber>
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825535</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
@@ -1147,6 +1495,7 @@
         <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>RAD</typeCode>
+        <docNumber>00</docNumber>
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2827441</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
@@ -1194,6 +1543,7 @@
         <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>RAM</typeCode>
+        <docNumber>00</docNumber>
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825977</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
@@ -1241,6 +1591,7 @@
         <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>RDM</typeCode>
+        <docNumber>00</docNumber>
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2826461</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
@@ -1288,6 +1639,7 @@
         <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>RSS</typeCode>
+        <docNumber>00</docNumber>
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2794711</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
@@ -1335,6 +1687,7 @@
         <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>SBC</typeCode>
+        <docNumber>00</docNumber>
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2827397</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
@@ -1382,6 +1735,7 @@
         <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>TCS</typeCode>
+        <docNumber>00</docNumber>
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2827465</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
@@ -1429,6 +1783,7 @@
         <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>TSP</typeCode>
+        <docNumber>00</docNumber>
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2825173</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
@@ -1476,6 +1831,7 @@
         <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>VDER-CR</typeCode>
+        <docNumber>00</docNumber>
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2826029</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
@@ -1523,6 +1879,7 @@
         <dpsUtilityPscNumber>120</dpsUtilityPscNumber>
         <serviceType>Electric</serviceType>
         <typeCode>VDER-CRED</typeCode>
+        <docNumber>00</docNumber>
         <generalRuleRefs>https://ets.dps.ny.gov/ets_web/search/searchSubmissionID.cfm?sub_id=2827641</generalRuleRefs>
         <statementCharges>
             <scopeOfApplicability>
