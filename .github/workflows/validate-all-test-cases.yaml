@@ -9,10 +9,13 @@ on:
     branches:
       - main # Triggers on push to main and its own branch
       - validatingAllTestCases
-
   pull_request:  # Trigger on a pr to main 
     branches:
       - main
+    paths:
+      - '**.xml'
+      - '**/v[0-9]*/**.xml'
+      - '.github/workflows/**'
 
 permissions: 
   contents: write
