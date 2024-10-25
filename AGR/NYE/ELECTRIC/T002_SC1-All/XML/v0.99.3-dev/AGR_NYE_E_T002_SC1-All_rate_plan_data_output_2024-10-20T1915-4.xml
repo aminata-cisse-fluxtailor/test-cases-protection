@@ -856,6 +856,18 @@
                     </measurementDefinition>
                     <chargesComponent>delivery</chargesComponent>
                 </meteredServiceCharge>
+                <rate_plan>
+                <metadata> <!-- Testing with a valid block -->
+                    <title>Test Valid Change</title>
+                        <description>Testing validation checks</description>
+                    </metadata>
+                </rate_plan>
+                <rate_plan> <!-- Testing with an invalid valid block -->
+                <metadata>
+                        <title>Test Invalid Change
+                            <description>Testing validation checks</description>
+                </metadata>
+                </rate_plan>
                 <meteredServiceCharge>
                     <servicePeriod>
                         <startDate>2023-11-01</startDate>
