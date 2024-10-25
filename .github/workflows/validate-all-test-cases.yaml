@@ -51,7 +51,7 @@ jobs:
         echo "XML files changed:"
         git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} | grep '\.xml$' || echo "No XML files changed"
       shell: bash
-      
+
     - name: Set up Java
       uses: actions/setup-java@v3
       with:
@@ -71,95 +71,108 @@ jobs:
       shell: bash
 
     - name: Run XML Validation and Generate Reports
-      id: validation
-      continue-on-error: true
+      id: validation # Added ID for reference in other steps
+      continue-on-error: true # Allow workflow to continue even if this fails
       run: |
+        echo "Starting XML Validation process..."
+        # Set up paths
         WORKSPACE="${GITHUB_WORKSPACE}"
         OXYGEN_SCRIPTS="${WORKSPACE}/scripting/oxygen/scripts"
         REPORT_DIR="validation-reports" 
         mkdir -p "$REPORT_DIR"
         
+        # Initialize main report file with timestamp and header
         echo "XML Validation Report - $(date)" > "${REPORT_DIR}/validation_report.txt"
-        
-        # Initialize total counters
-        total_files_processed=0
-        total_files_with_problems=0
-        total_problems_found=0
         
         for util in AGR CEI CHG LBR NFG NGG PLI; do
           if [ -d "$util" ]; then
-            echo "Processing $util directory..."
+            echo "Processing $util..."
             
             TEMP_DIR="temp_validation_${util}"
             mkdir -p "$TEMP_DIR"
             cp -r "$util" "$TEMP_DIR/"
             
-            # Count files to be validated
-            files_count=$(find "$TEMP_DIR/$util" -name "*.xml" -not -path "*/v0.9/*" -type f | wc -l)
-            echo "Found $files_count files to validate in $util"
-            
-            # Run validation
+            # Run validation and capture full output
             "${OXYGEN_SCRIPTS}/validate.sh" "$TEMP_DIR/$util" \
-              -if "**/*.xml" \
+              -if "*.xml" \
               -ef "**/v0.9/*.xml" \
               -ed ".svn,.git" \
               -rf "${REPORT_DIR}/temp_report_${util}.txt" \
               -rft "txt" || true
             
             if [ -f "${REPORT_DIR}/temp_report_${util}.txt" ]; then
-              # Get validation problems count
-              problems_count=$(grep -c "FILE:" "${REPORT_DIR}/temp_report_${util}.txt" || echo "0")
-              
-              {
-                echo "=== Results for $util ==="
-                echo "Files processed: $files_count"
-                echo "Files with validation problems: $problems_count"
-                echo "Validation Results:"
-                cat "${REPORT_DIR}/temp_report_${util}.txt"
-                echo -e "\n\n"
-              } >> "${REPORT_DIR}/validation_report.txt"
-              
-              # Update totals
-              total_files_processed=$((total_files_processed + files_count))
-              total_files_with_problems=$((total_files_with_problems + problems_count))
-              
-              # Count actual problems (each file might have multiple)
-              while IFS= read -r line; do
-                if [[ $line =~ \(([0-9]+)\ problems\) ]]; then
-                  total_problems_found=$((total_problems_found + ${BASH_REMATCH[1]}))
-                fi
-              done < "${REPORT_DIR}/temp_report_${util}.txt"
+              echo "=== Results for $util ===" >> "${REPORT_DIR}/validation_report.txt"
+              cat "${REPORT_DIR}/temp_report_${util}.txt" >> "${REPORT_DIR}/validation_report.txt"
+              echo -e "\n\n" >> "${REPORT_DIR}/validation_report.txt"
             fi
             
             rm -rf "$TEMP_DIR"
           fi
         done
         
-        # Create summary report
+        # Create detailed summary report
         {
           echo "Validation Summary Report"
           echo "======================="
           date
           echo
-          echo "Overall Statistics:"
-          echo "-----------------"
+          echo "Problems found by utility:"
+          echo
+          
+          for util in AGR CEI CHG LBR NFG NGG PLI; do
+            echo "=== $util ==="
+            section_start="=== Results for ${util} ==="
+            if grep -A 100 "$section_start" "${REPORT_DIR}/validation_report.txt" > "temp_section.txt"; then
+              files_total=$(grep "files verified in total" "temp_section.txt" | grep -o "[0-9]\+ files" | cut -d' ' -f1)
+              files_with_problems=$(grep "files reported with validation problems" "temp_section.txt" | grep -o "[0-9]\+ files" | cut -d' ' -f1)
+              total_problems=$(grep "problems found on aggregate" "temp_section.txt" | grep -o "[0-9]\+ problems" | cut -d' ' -f1)
+              
+              echo "Files processed: ${files_total:-0}"
+              echo "Files with problems: ${files_with_problems:-0}"
+              echo "Total problems found: ${total_problems:-0}"
+              echo
+              echo "Problem details:"
+              
+              sed -n '/FILES WITH VALIDATION PROBLEMS/,/=== Results/p' "temp_section.txt" | \
+                grep "FILE:" | \
+                sed -E "s|.*/temp_validation_${util}/${util}/|${util}/|g" || echo "None"
+              
+              rm temp_section.txt
+            else
+              echo "No validation results found"
+            fi
+            echo
+          done
+
+          echo "======================="
+          echo "Overall Statistics"
+          echo "======================="
+          
+          total_files_processed=0
+          total_files_with_problems=0
+          total_problems_found=0
+          
+          for util in AGR CEI CHG LBR NFG NGG PLI; do
+            section_start="=== Results for ${util} ==="
+            if grep -A 100 "$section_start" "${REPORT_DIR}/validation_report.txt" > "temp_section.txt"; then
+              files=$(grep "files verified in total" "temp_section.txt" | grep -o "[0-9]\+" || echo "0")
+              problems_files=$(grep "files reported with validation problems" "temp_section.txt" | grep -o "[0-9]\+" || echo "0")
+              problems=$(grep "problems found on aggregate" "temp_section.txt" | grep -o "[0-9]\+" || echo "0")
+              
+              total_files_processed=$((total_files_processed + files))
+              total_files_with_problems=$((total_files_with_problems + problems_files))
+              total_problems_found=$((total_problems_found + problems))
+              
+              rm temp_section.txt
+            fi
+          done
+          
           echo "Total files processed: $total_files_processed"
           echo "Total files with problems: $total_files_with_problems"
           echo "Total problems found: $total_problems_found"
-          echo
-          echo "Problems by Utility:"
-          echo "-----------------"
           
-          # Extract problem details from the main report
-          for util in AGR CEI CHG LBR NFG NGG PLI; do
-            echo
-            echo "=== $util ==="
-            sed -n "/=== Results for $util ===/,/===/p" "${REPORT_DIR}/validation_report.txt" | \
-              grep "FILE:" | sed -E "s|.*/temp_validation_${util}/${util}/|${util}/|g" || echo "No problems found"
-          done
-          
-        } > "${REPORT_DIR}/summary.txt"
-        
+        } > "${REPORT_DIR}/summary.txt" 2>&1 || true
+                
         # Output the counts for next steps
         echo "total_problems=$total_problems_found" >> $GITHUB_OUTPUT
         echo "total_problem_files=$total_files_with_problems" >> $GITHUB_OUTPUT
@@ -174,7 +187,9 @@ jobs:
       with:
         name: validation-reports
         path: validation-reports # Upload all files in this directory
+    
 
+    
     - name: Check Validation Results
       if: always()
       run: |
@@ -193,6 +208,7 @@ jobs:
         
         TEMP_DIR="temp_reports"
         mkdir -p "$TEMP_DIR"
+        # Copy reports (use || true to prevent failures if files don't exist)
         cp validation-reports/validation_report.txt "$TEMP_DIR/" || true
         cp validation-reports/summary.txt "$TEMP_DIR/" || true
         
@@ -204,6 +220,7 @@ jobs:
           git rm -rf .
         fi
         
+        # Update and push the reports
         cp -r "$TEMP_DIR"/* . || true
         git add validation_report.txt summary.txt || true
         git commit -m "Update validation reports [skip ci]" || echo "No changes to commit"
