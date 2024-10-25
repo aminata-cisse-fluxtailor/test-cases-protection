@@ -10,7 +10,7 @@ on:
       - main # Triggers on push to main and its own branch
       - validatingAllTestCases
 
-    pull_request:  # Trigger on a pr to main 
+  pull_request:  # Trigger on a pr to main 
     branches:
       - main
 
