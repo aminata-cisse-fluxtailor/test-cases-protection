@@ -201,7 +201,7 @@ jobs:
         else
           echo "✅ Validation passed - no problems found"
         fi
-
+      shell: bash
     - name: Deploy validation reports to branch
       if: always()
       run: |
