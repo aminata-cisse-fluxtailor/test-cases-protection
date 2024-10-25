@@ -196,7 +196,7 @@ jobs:
         path: validation-reports # Upload all files in this directory
     
     - name: Check Validation Results
-       run: |
+      run: |
         if [ "${{ env.TOTAL_PROBLEMS }}" -gt 0 ]; then
           echo "::error::Validation failed with ${{ env.TOTAL_PROBLEMS }} problems in ${{ env.TOTAL_PROBLEM_FILES }} files"
           echo "See validation reports for details"
