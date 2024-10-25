@@ -29,7 +29,10 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-      
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}  # Checkout PR code
+        fetch-depth: 0
+
     - name: Debug Repository Information
       run: |
         echo "Current repository: ${{ github.repository }}"
@@ -39,6 +42,16 @@ jobs:
         ls -R $GITHUB_WORKSPACE/AGR/NYE/ELECTRIC/T002_SC1-All/XML/v0.99.3-dev/ || echo "Directory not found"
       shell: bash
 
+    - name: Debug PR Information
+      if: github.event_name == 'pull_request'
+      run: |
+        echo "PR SHA: ${{ github.event.pull_request.head.sha }}"
+        echo "Changed files:"
+        git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }}
+        echo "XML files changed:"
+        git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} | grep '\.xml$' || echo "No XML files changed"
+      shell: bash
+      
     - name: Set up Java
       uses: actions/setup-java@v3
       with:
