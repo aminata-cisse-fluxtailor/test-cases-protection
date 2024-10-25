@@ -55,7 +55,7 @@ jobs:
         echo "Oxygen XML Scripting setup complete."
       shell: bash
 
-    - name: Run XML Validation
+    - name: Run XML Validation and Generate Reports
       id: validation # Added ID for reference in other steps
       continue-on-error: true # Allow workflow to continue even if this fails
       run: |
@@ -180,31 +180,30 @@ jobs:
           echo "::error::Validation failures detected: ${total_problems_found} problems in ${total_files_with_problems} files"
           exit 1
         fi
-        
-    - name: Check Validation Status
-      if: always()
-      run: |
-        if [ -f "validation-reports/summary.txt" ]; then
-          problems=$(grep "Total problems found:" validation-reports/summary.txt | awk '{print $4}')
-          if [ "${problems:-0}" -gt 0 ]; then
-            echo "::error::XML Validation Failed - Found ${problems} problems"
-            exit 1
-          fi
-        else
-          echo "::error::Validation report not found"
-          exit 1
-        fi
-      shell: bash
-      
+
+        # Store the results for next step
+        echo "TOTAL_PROBLEMS=${total_problems_found:-0}" >> $GITHUB_ENV
+        echo "TOTAL_PROBLEM_FILES=${total_files_with_problems:-0}" >> $GITHUB_ENV
+
     - name: Upload validation reports
       if: always() # This will ensures that it runs regardless of previous step status since it keeps exiting
       uses: actions/upload-artifact@v3
       with:
         name: validation-reports
         path: validation-reports # Upload all files in this directory
-        
+    
+     - name: Check Validation Results
+       run: |
+        if [ "${{ env.TOTAL_PROBLEMS }}" -gt 0 ]; then
+          echo "::error::Validation failed with ${{ env.TOTAL_PROBLEMS }} problems in ${{ env.TOTAL_PROBLEM_FILES }} files"
+          echo "See validation reports for details"
+          exit 1
+        else
+          echo "✅ Validation passed - no problems found"
+        fi
+
     - name: Deploy validation reports to branch
-      if: always() # Run even if validation fails
+      if: always()
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
