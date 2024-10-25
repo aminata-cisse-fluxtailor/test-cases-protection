@@ -1,107 +1,26 @@
 Validation Summary Report
 =======================
-Fri Oct 25 18:59:11 UTC 2024
+Fri Oct 25 19:04:14 UTC 2024
 
-Problems found by utility:
+Overall Statistics:
+-----------------
+Total files processed: 14
+Total files with problems: 0
+Total problems found: 0
+
+Problems by Utility:
+-----------------
 
 === AGR ===
-Files processed: 0
-0
-0
-Files with problems: 0
-0
-0
-Total problems found: 0
-0
-0
-
-Problem details:
 
 === CEI ===
-Files processed: 0
-0
-0
-0
-Files with problems: 0
-0
-0
-0
-Total problems found: 0
-0
-0
-0
-
-Problem details:
 
 === CHG ===
-Files processed: 0
-0
-0
-0
-0
-Files with problems: 0
-0
-0
-0
-0
-Total problems found: 0
-0
-0
-0
-0
-
-Problem details:
 
 === LBR ===
-Files processed: 0
-0
-0
-0
-Files with problems: 0
-0
-0
-0
-Total problems found: 0
-0
-0
-0
-
-Problem details:
 
 === NFG ===
-Files processed: 0
-0
-0
-Files with problems: 0
-0
-0
-Total problems found: 0
-0
-0
-
-Problem details:
 
 === NGG ===
-Files processed: 0
-0
-Files with problems: 0
-0
-Total problems found: 0
-0
-
-Problem details:
 
 === PLI ===
-Files processed: 0
-Files with problems: 0
-Total problems found: 0
-
-Problem details:
-
-=======================
-Overall Statistics
-=======================
-/home/runner/work/_temp/2c3c8474-c698-4467-b266-768d83f17e53.sh: line 98: 0
-0
-0: syntax error in expression (error token is "0
-0")
