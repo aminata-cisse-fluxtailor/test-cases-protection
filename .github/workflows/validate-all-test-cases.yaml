@@ -10,6 +10,10 @@ on:
       - main # Triggers on push to main and its own branch
       - validatingAllTestCases
 
+    pull_request:  # Trigger on a pr to main 
+    branches:
+      - main
+
 permissions: 
   contents: write
   pages: write
