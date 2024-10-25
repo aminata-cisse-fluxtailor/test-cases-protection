@@ -154,13 +154,13 @@ jobs:
           for util in AGR CEI CHG LBR NFG NGG PLI; do
             section_start="=== Results for ${util} ==="
             if grep -A 100 "$section_start" "${REPORT_DIR}/validation_report.txt" > "temp_section.txt"; then
-              files=$(grep "files verified in total" "temp_section.txt" | grep -o "[0-9]\+ files" | cut -d' ' -f1)
-              problems_files=$(grep "files reported with validation problems" "temp_section.txt" | grep -o "[0-9]\+ files" | cut -d' ' -f1)
-              problems=$(grep "problems found on aggregate" "temp_section.txt" | grep -o "[0-9]\+ problems" | cut -d' ' -f1)
+              files=$(grep "files verified in total" "temp_section.txt" | grep -o "[0-9]\+" || echo "0")
+              problems_files=$(grep "files reported with validation problems" "temp_section.txt" | grep -o "[0-9]\+" || echo "0")
+              problems=$(grep "problems found on aggregate" "temp_section.txt" | grep -o "[0-9]\+" || echo "0")
             
-              total_files_processed=$((total_files_processed + ${files:-0}))
-              total_files_with_problems=$((total_files_with_problems + ${problems_files:-0}))
-              total_problems_found=$((total_problems_found + ${problems:-0}))
+              total_files_processed=$((total_files_processed + files))
+              total_files_with_problems=$((total_files_with_problems + problems_files))
+              total_problems_found=$((total_problems_found + problems))
             
               rm temp_section.txt
             fi
@@ -176,8 +176,22 @@ jobs:
         cat "${REPORT_DIR}/summary.txt"
       
         # Exit with error if problems were found
-        if [ "$total_problems_found" -gt 0 ]; then
-          echo "Validation failures detected. Check the report for details."
+        if [ "${total_files_with_problems:-0}" -gt 0 ] || [ "${total_problems_found:-0}" -gt 0 ]; then
+          echo "::error::Validation failures detected: ${total_problems_found} problems in ${total_files_with_problems} files"
+          exit 1
+        fi
+        
+    - name: Check Validation Status
+      if: always()
+      run: |
+        if [ -f "validation-reports/summary.txt" ]; then
+          problems=$(grep "Total problems found:" validation-reports/summary.txt | awk '{print $4}')
+          if [ "${problems:-0}" -gt 0 ]; then
+            echo "::error::XML Validation Failed - Found ${problems} problems"
+            exit 1
+          fi
+        else
+          echo "::error::Validation report not found"
           exit 1
         fi
       shell: bash
