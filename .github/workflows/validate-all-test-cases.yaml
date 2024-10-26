@@ -193,6 +193,16 @@ jobs:
         name: validation-reports
         path: validation-reports # Upload all files in this directory
         
+    - name: Check Validation Results
+      if: always()
+      run: |
+        if [ "${{ steps.validation.outputs.validation_failed }}" == "1" ]; then
+          echo "::error::Validation failed with ${{ steps.validation.outputs.total_problems }} problems in ${{ steps.validation.outputs.total_problem_files }} files"
+          exit 1
+        else
+          echo "✅ Validation passed - no problems found"
+        fi
+
     - name: Deploy validation reports to branch
       if: always() # Run even if validation fails
       run: |
