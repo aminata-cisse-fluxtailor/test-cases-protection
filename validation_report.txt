@@ -1,12 +1,12 @@
-XML Validation Report - Fri Oct 25 19:35:39 UTC 2024
+XML Validation Report - Sat Oct 26 22:32:13 UTC 2024
 === Results for AGR ===
 --- SUMMARY ---
 
-Report created on: 10/25/2024 19:35:47
+Report created on: 10/26/2024 22:32:20
 
 15 files verified in total
 14 files reported with validation problems
-73 problems found on aggregate
+71 problems found on aggregate
 
 
 --- FILES WITH VALIDATION PROBLEMS ---
@@ -363,7 +363,7 @@ Description: A well-formed document requires a root element.
 Start location: 2:1
 
 
-FILE: /home/runner/work/test-cases-protection/test-cases-protection/temp_validation_AGR/AGR/NYE/ELECTRIC/T002_SC1-All/XML/v0.99.3-dev/AGR_NYE_E_T002_SC1-All_rate_plan_data_output_2024-10-20T1915-4.xml  (4 problems)
+FILE: /home/runner/work/test-cases-protection/test-cases-protection/temp_validation_AGR/AGR/NYE/ELECTRIC/T002_SC1-All/XML/v0.99.3-dev/AGR_NYE_E_T002_SC1-All_rate_plan_data_output_2024-10-20T1915-4.xml  (2 problems)
 
 System ID: /home/runner/work/test-cases-protection/test-cases-protection/temp_validation_AGR/AGR/NYE/ELECTRIC/T002_SC1-All/XML/v0.99.3-dev/AGR_NYE_E_T002_SC1-All_rate_plan_data_output_2024-10-20T1915-4.xml
 Main validation file: /home/runner/work/test-cases-protection/test-cases-protection/temp_validation_AGR/AGR/NYE/ELECTRIC/T002_SC1-All/XML/v0.99.3-dev/AGR_NYE_E_T002_SC1-All_rate_plan_data_output_2024-10-20T1915-4.xml
@@ -386,26 +386,6 @@ Description: Invalid content was found starting with element 'ratePlanScenario'.
 Start location: 214:9
 End location: 214:25
 URL: http://www.w3.org/TR/xmlschema-1/#cvc-complex-type
-
-System ID: /home/runner/work/test-cases-protection/test-cases-protection/temp_validation_AGR/AGR/NYE/ELECTRIC/T002_SC1-All/XML/v0.99.3-dev/AGR_NYE_E_T002_SC1-All_rate_plan_data_output_2024-10-20T1915-4.xml
-Main validation file: /home/runner/work/test-cases-protection/test-cases-protection/temp_validation_AGR/AGR/NYE/ELECTRIC/T002_SC1-All/XML/v0.99.3-dev/AGR_NYE_E_T002_SC1-All_rate_plan_data_output_2024-10-20T1915-4.xml
-Schema: https://raw.githubusercontent.com/Flux-Tailor/rate-plan-schema/refs/tags/v0.99.3-dev/rate_plan_data_output.xsd
-Engine name: Xerces
-Severity: error
-Problem ID: cvc-complex-type.2.4.a
-Description: Invalid content was found starting with element 'rate_plan'. One of '{meteredServiceCharge, exportCredit}' is expected.
-Start location: 859:18
-End location: 859:27
-URL: http://www.w3.org/TR/xmlschema-1/#cvc-complex-type
-
-System ID: /home/runner/work/test-cases-protection/test-cases-protection/temp_validation_AGR/AGR/NYE/ELECTRIC/T002_SC1-All/XML/v0.99.3-dev/AGR_NYE_E_T002_SC1-All_rate_plan_data_output_2024-10-20T1915-4.xml
-Main validation file: /home/runner/work/test-cases-protection/test-cases-protection/temp_validation_AGR/AGR/NYE/ELECTRIC/T002_SC1-All/XML/v0.99.3-dev/AGR_NYE_E_T002_SC1-All_rate_plan_data_output_2024-10-20T1915-4.xml
-Schema: https://raw.githubusercontent.com/Flux-Tailor/rate-plan-schema/refs/tags/v0.99.3-dev/rate_plan_data_output.xsd
-Engine name: Xerces
-Severity: fatal
-Problem ID: ETagRequired
-Description: The element type "title" must be terminated by the matching end-tag "</title>".
-Start location: 869:19
 
 
 FILE: /home/runner/work/test-cases-protection/test-cases-protection/temp_validation_AGR/AGR/RGE/GAS/statements_pscNbr016/XML/v0.99.2-dev/XXX_YYY_ELECTRIC_T00X_name_2024-MM-DDT1555-4.xml  (2 problems)
@@ -779,11 +759,11 @@ URL: http://www.w3.org/TR/xmlschema-1/#schema_reference
 === Results for CEI ===
 --- SUMMARY ---
 
-Report created on: 10/25/2024 19:35:59
+Report created on: 10/26/2024 22:32:30
 
 52 files verified in total
 14 files reported with validation problems
-1483 problems found on aggregate
+1484 problems found on aggregate
 
 
 --- FILES WITH VALIDATION PROBLEMS ---
@@ -810,7 +790,7 @@ Start location: 4:96
 URL: http://www.w3.org/TR/xmlschema-1/#schema_reference
 
 
-FILE: /home/runner/work/test-cases-protection/test-cases-protection/temp_validation_CEI/CEI/CED/ELECTRIC/T002_SC1-All/XML/v0.99.3-dev/CEI_CED_E_T002_SC1-All_rate_plan_data_output_2024-10-20T1915-4.xml  (13 problems)
+FILE: /home/runner/work/test-cases-protection/test-cases-protection/temp_validation_CEI/CEI/CED/ELECTRIC/T002_SC1-All/XML/v0.99.3-dev/CEI_CED_E_T002_SC1-All_rate_plan_data_output_2024-10-20T1915-4.xml  (14 problems)
 
 System ID: /home/runner/work/test-cases-protection/test-cases-protection/temp_validation_CEI/CEI/CED/ELECTRIC/T002_SC1-All/XML/v0.99.3-dev/CEI_CED_E_T002_SC1-All_rate_plan_data_output_2024-10-20T1915-4.xml
 Main validation file: /home/runner/work/test-cases-protection/test-cases-protection/temp_validation_CEI/CEI/CED/ELECTRIC/T002_SC1-All/XML/v0.99.3-dev/CEI_CED_E_T002_SC1-All_rate_plan_data_output_2024-10-20T1915-4.xml
@@ -940,6 +920,17 @@ Description: The value '' of element 'ratePlanNumberRatePeriods' is not valid.
 Start location: 20:18
 End location: 20:43
 URL: http://www.w3.org/TR/xmlschema-1/#cvc-type
+
+System ID: /home/runner/work/test-cases-protection/test-cases-protection/temp_validation_CEI/CEI/CED/ELECTRIC/T002_SC1-All/XML/v0.99.3-dev/CEI_CED_E_T002_SC1-All_rate_plan_data_output_2024-10-20T1915-4.xml
+Main validation file: /home/runner/work/test-cases-protection/test-cases-protection/temp_validation_CEI/CEI/CED/ELECTRIC/T002_SC1-All/XML/v0.99.3-dev/CEI_CED_E_T002_SC1-All_rate_plan_data_output_2024-10-20T1915-4.xml
+Schema: https://raw.githubusercontent.com/Flux-Tailor/rate-plan-schema/refs/tags/v0.99.3-dev/rate_plan_data_output.xsd
+Engine name: Xerces
+Severity: error
+Problem ID: cvc-complex-type.2.3
+Description: Element 'charges' cannot have character [children], because the type's content type is element-only.
+Start location: 22:22
+End location: 22:23
+URL: http://www.w3.org/TR/xmlschema-1/#cvc-complex-type
 
 System ID: /home/runner/work/test-cases-protection/test-cases-protection/temp_validation_CEI/CEI/CED/ELECTRIC/T002_SC1-All/XML/v0.99.3-dev/CEI_CED_E_T002_SC1-All_rate_plan_data_output_2024-10-20T1915-4.xml
 Main validation file: /home/runner/work/test-cases-protection/test-cases-protection/temp_validation_CEI/CEI/CED/ELECTRIC/T002_SC1-All/XML/v0.99.3-dev/CEI_CED_E_T002_SC1-All_rate_plan_data_output_2024-10-20T1915-4.xml
@@ -16876,7 +16867,7 @@ URL: http://www.w3.org/TR/xmlschema-1/#cvc-complex-type
 === Results for CHG ===
 --- SUMMARY ---
 
-Report created on: 10/25/2024 19:36:03
+Report created on: 10/26/2024 22:32:35
 
 2 files verified in total
 2 files reported with validation problems
@@ -16922,7 +16913,7 @@ Start location: 2:1
 === Results for LBR ===
 --- SUMMARY ---
 
-Report created on: 10/25/2024 19:36:08
+Report created on: 10/26/2024 22:32:39
 
 2 files verified in total
 2 files reported with validation problems
@@ -16968,7 +16959,7 @@ Start location: 2:1
 === Results for NFG ===
 --- SUMMARY ---
 
-Report created on: 10/25/2024 19:36:12
+Report created on: 10/26/2024 22:32:43
 
 2 files verified in total
 2 files reported with validation problems
@@ -17014,7 +17005,7 @@ Start location: 2:1
 === Results for NGG ===
 --- SUMMARY ---
 
-Report created on: 10/25/2024 19:36:17
+Report created on: 10/26/2024 22:32:48
 
 11 files verified in total
 11 files reported with validation problems
@@ -17989,7 +17980,7 @@ URL: http://www.w3.org/TR/xmlschema-1/#schema_reference
 === Results for PLI ===
 --- SUMMARY ---
 
-Report created on: 10/25/2024 19:36:22
+Report created on: 10/26/2024 22:32:53
 
 2 files verified in total
 2 files reported with validation problems
