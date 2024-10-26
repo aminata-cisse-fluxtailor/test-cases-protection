@@ -85,14 +85,17 @@ jobs:
             
             # Run validation for this utility
            echo "Validating $util files..."
-           "${OXYGEN_SCRIPTS}/validate.sh" "$TEMP_DIR/$util" \
+           if ! "${OXYGEN_SCRIPTS}/validate.sh" "$TEMP_DIR/$util" \
              -if "*.xml" \
              -ef "**/v0.9/*.xml" \
              -ed ".svn,.git" \
              -rf "${REPORT_DIR}/temp_report_${util}.txt" \
              -rft "txt" \
              -s true \
-             -u true || true
+             -u true; then
+               echo "Validation failed for $util"
+               validation_failed=true
+             fi
             
             # Combine results to main report if temp report exists
             if [ -f "${REPORT_DIR}/temp_report_${util}.txt" ]; then
