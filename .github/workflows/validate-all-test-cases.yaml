@@ -4,11 +4,18 @@ on:
   push:
     paths:
       - '**.xml' # Triggers on any XML file changes in any directory
-      - '**/v[0-9]*/**.xml' 
+      - '!**/v0.9/**' # Excludes only 0.9 directory
       - '.github/workflows/**' # Temporary as we test
     branches:
       - main # Triggers on push to main and its own branch
       - validatingAllTestCases
+  pull_request:  # Trigger on a pr to main 
+    branches:
+      - main
+    paths:
+      - '**.xml'
+      - '!**/v0.9/**' # Excludes only 0.9 directory
+      - '.github/workflows/**'
 
 permissions: 
   contents: write
