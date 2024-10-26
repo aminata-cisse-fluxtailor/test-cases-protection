@@ -178,13 +178,17 @@ jobs:
       
         # Display summary in logs
         cat "${REPORT_DIR}/summary.txt"
-      
-        # Exit with error if problems were found
+
         if [ "$total_problems_found" -gt 0 ]; then
+          echo "validation_failed=1" >> $GITHUB_OUTPUT
+          echo "total_problems=$total_problems_found" >> $GITHUB_OUTPUT
+          echo "total_problem_files=$total_files_with_problems" >> $GITHUB_OUTPUT
           echo "Validation failures detected. Check the report for details."
           exit 1
+        else
+          echo "validation_failed=0" >> $GITHUB_OUTPUT
+          echo "✅ Validation passed"
         fi
-      shell: bash
       
     - name: Upload validation reports
       if: always() # This will ensures that it runs regardless of previous step status since it keeps exiting
