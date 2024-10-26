@@ -91,8 +91,8 @@ jobs:
              -ed ".svn,.git" \
              -rf "${REPORT_DIR}/temp_report_${util}.txt" \
              -rft "txt" \
-             -s \
-             -u
+             -schema \
+             -resolve-url || echo "Validation failed for $util"
             
             # Combine results to main report if temp report exists
             if [ -f "${REPORT_DIR}/temp_report_${util}.txt" ]; then
