@@ -63,7 +63,6 @@ jobs:
       continue-on-error: true # Allow workflow to continue even if this fails
       run: |
         echo "Starting XML Validation process..."
-
         # Set up paths
         WORKSPACE="${GITHUB_WORKSPACE}"
         OXYGEN_SCRIPTS="${WORKSPACE}/scripting/oxygen/scripts"
@@ -115,7 +114,6 @@ jobs:
           echo
           echo "Problems found by utility:"
           echo
-
           # Process each utility's results
           for util in AGR CEI CHG LBR NFG NGG PLI; do
             echo "=== $util ==="
@@ -145,7 +143,6 @@ jobs:
             fi
             echo
           done
-
           echo "======================="
           echo "Overall Statistics"
           echo "======================="
@@ -178,7 +175,6 @@ jobs:
       
         # Display summary in logs
         cat "${REPORT_DIR}/summary.txt"
-
         if [ "$total_problems_found" -gt 0 ]; then
           echo "validation_failed=1" >> $GITHUB_OUTPUT
           echo "total_problems=$total_problems_found" >> $GITHUB_OUTPUT
@@ -206,7 +202,6 @@ jobs:
         else
           echo "✅ Validation passed - no problems found"
         fi
-
     - name: Deploy validation reports to branch
       if: always() # Run even if validation fails
       run: |
@@ -215,7 +210,6 @@ jobs:
         
         TEMP_DIR="temp_reports"
         mkdir -p "$TEMP_DIR"
-
         # Copy reports (use || true to prevent failures if files don't exist)
         cp validation-reports/validation_report.txt "$TEMP_DIR/" || true
         cp validation-reports/summary.txt "$TEMP_DIR/" || true
