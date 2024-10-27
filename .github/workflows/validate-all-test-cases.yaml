@@ -29,7 +29,9 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-      
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}  # Checkout PR code
+        fetch-depth: 0
     - name: Debug Information
       run: |
         echo "Event name: ${{ github.event_name }}"
@@ -38,6 +40,16 @@ jobs:
         echo "Workflow: ${{ github.workflow }}"
         echo "Current directory structure:"
         ls -la
+      shell: bash
+
+    - name: Debug PR Information
+      if: github.event_name == 'pull_request'
+      run: |
+        echo "PR SHA: ${{ github.event.pull_request.head.sha }}"
+        echo "Changed files:"
+        git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }}
+        echo "XML files changed:"
+        git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} | grep '\.xml$' || echo "No XML files changed"
       shell: bash
 
     - name: Set up Java
@@ -58,7 +70,7 @@ jobs:
         echo "Oxygen XML Scripting setup complete."
       shell: bash
 
-    - name: Run XML Validation
+    - name: Run XML Validation and Generate Reports
       id: validation # Added ID for reference in other steps
       continue-on-error: true # Allow workflow to continue even if this fails
       run: |
@@ -69,7 +81,7 @@ jobs:
         REPORT_DIR="validation-reports" 
         mkdir -p "$REPORT_DIR"
         
-        # Initialize main report file
+        # Initialize main report file with timestamp and header
         echo "XML Validation Report - $(date)" > "${REPORT_DIR}/validation_report.txt"
         
         # Process each utility directory separately (due to IOB errors)
@@ -90,8 +102,8 @@ jobs:
              -ed ".svn,.git" \
              -rf "${REPORT_DIR}/temp_report_${util}.txt" \
              -rft "txt" \
-             -s true \
-             -u true || true
+             -schema \
+             -resolve-url || echo "Validation failed for $util"
             
             # Combine results to main report if temp report exists
             if [ -f "${REPORT_DIR}/temp_report_${util}.txt" ]; then
@@ -125,13 +137,12 @@ jobs:
               files_total=$(grep "files verified in total" "temp_section.txt" | grep -o "[0-9]\+ files" | cut -d' ' -f1)
               files_with_problems=$(grep "files reported with validation problems" "temp_section.txt" | grep -o "[0-9]\+ files" | cut -d' ' -f1)
               total_problems=$(grep "problems found on aggregate" "temp_section.txt" | grep -o "[0-9]\+ problems" | cut -d' ' -f1)
-            
+                     
               echo "Files processed: ${files_total:-0}"
               echo "Files with problems: ${files_with_problems:-0}"
               echo "Total problems found: ${total_problems:-0}"
               echo
               echo "Problem details:"
-            
               # Extract and format file problems
               sed -n '/FILES WITH VALIDATION PROBLEMS/,/=== Results/p' "temp_section.txt" | \
                 grep "FILE:" | \
@@ -175,13 +186,16 @@ jobs:
       
         # Display summary in logs
         cat "${REPORT_DIR}/summary.txt"
-      
-        # Exit with error if problems were found
         if [ "$total_problems_found" -gt 0 ]; then
+          echo "validation_failed=1" >> $GITHUB_OUTPUT
+          echo "total_problems=$total_problems_found" >> $GITHUB_OUTPUT
+          echo "total_problem_files=$total_files_with_problems" >> $GITHUB_OUTPUT
           echo "Validation failures detected. Check the report for details."
           exit 1
+        else
+          echo "validation_failed=0" >> $GITHUB_OUTPUT
+          echo "✅ Validation passed"
         fi
-      shell: bash
       
     - name: Upload validation reports
       if: always() # This will ensures that it runs regardless of previous step status since it keeps exiting
@@ -190,6 +204,15 @@ jobs:
         name: validation-reports
         path: validation-reports # Upload all files in this directory
         
+    - name: Check Validation Results
+      if: always()
+      run: |
+        if [ "${{ steps.validation.outputs.validation_failed }}" == "1" ]; then
+          echo "::error::Validation failed with ${{ steps.validation.outputs.total_problems }} problems in ${{ steps.validation.outputs.total_problem_files }} files"
+          exit 1
+        else
+          echo "✅ Validation passed - no problems found"
+        fi
     - name: Deploy validation reports to branch
       if: always() # Run even if validation fails
       run: |
