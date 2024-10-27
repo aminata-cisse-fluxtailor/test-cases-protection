@@ -1,8 +1,8 @@
-XML Validation Report - Sun Oct 27 00:03:00 UTC 2024
+XML Validation Report - Sun Oct 27 00:07:23 UTC 2024
 === Results for AGR ===
 --- SUMMARY ---
 
-Report created on: 10/27/2024 00:03:08
+Report created on: 10/27/2024 00:07:36
 
 15 files verified in total
 14 files reported with validation problems
@@ -759,7 +759,7 @@ URL: http://www.w3.org/TR/xmlschema-1/#schema_reference
 === Results for CEI ===
 --- SUMMARY ---
 
-Report created on: 10/27/2024 00:03:25
+Report created on: 10/27/2024 00:07:43
 
 52 files verified in total
 14 files reported with validation problems
@@ -929,7 +929,7 @@ Severity: error
 Problem ID: cvc-complex-type.2.3
 Description: Element 'charges' cannot have character [children], because the type's content type is element-only.
 Start location: 22:22
-End location: 22:24
+End location: 22:26
 URL: http://www.w3.org/TR/xmlschema-1/#cvc-complex-type
 
 System ID: /home/runner/work/test-cases-protection/test-cases-protection/temp_validation_CEI/CEI/CED/ELECTRIC/T002_SC1-All/XML/v0.99.3-dev/CEI_CED_E_T002_SC1-All_rate_plan_data_output_2024-10-20T1915-4.xml
@@ -16867,7 +16867,7 @@ URL: http://www.w3.org/TR/xmlschema-1/#cvc-complex-type
 === Results for CHG ===
 --- SUMMARY ---
 
-Report created on: 10/27/2024 00:03:29
+Report created on: 10/27/2024 00:07:48
 
 2 files verified in total
 2 files reported with validation problems
@@ -16913,7 +16913,7 @@ Start location: 2:1
 === Results for LBR ===
 --- SUMMARY ---
 
-Report created on: 10/27/2024 00:03:34
+Report created on: 10/27/2024 00:07:52
 
 2 files verified in total
 2 files reported with validation problems
@@ -16959,7 +16959,7 @@ Start location: 2:1
 === Results for NFG ===
 --- SUMMARY ---
 
-Report created on: 10/27/2024 00:03:38
+Report created on: 10/27/2024 00:07:57
 
 2 files verified in total
 2 files reported with validation problems
@@ -17005,7 +17005,7 @@ Start location: 2:1
 === Results for NGG ===
 --- SUMMARY ---
 
-Report created on: 10/27/2024 00:03:43
+Report created on: 10/27/2024 00:08:02
 
 11 files verified in total
 11 files reported with validation problems
@@ -17980,7 +17980,7 @@ URL: http://www.w3.org/TR/xmlschema-1/#schema_reference
 === Results for PLI ===
 --- SUMMARY ---
 
-Report created on: 10/27/2024 00:03:47
+Report created on: 10/27/2024 00:08:06
 
 2 files verified in total
 2 files reported with validation problems
